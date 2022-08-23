@@ -110,8 +110,8 @@ Pod::Spec.new do |spec|
   #
 
   # spec.framework  = "SomeFramework"
-  spec.frameworks = "SomeFramework", "AnotherFramework"
-  spec.dependency = 'KontaktSDK', '~> 3.0.4'
+  # spec.frameworks = "SomeFramework", "AnotherFramework"
+  # spec.dependency = 'KontaktSDK', '~> 3.0.4'
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
