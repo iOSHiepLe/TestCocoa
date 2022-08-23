@@ -110,8 +110,9 @@ Pod::Spec.new do |spec|
   #
 
   # spec.framework  = "SomeFramework"
-  spec.frameworks = "Flutter", "FlutterPluginRegistrant"
+  # spec.frameworks = "Flutter", "FlutterPluginRegistrant"
   spec.dependency 'KontaktSDK', '~> 3.0.4'
+spec.dependency 'Flutter'
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"

@@ -7,6 +7,7 @@ target 'TestCocoa' do
 
   # Pods for TestCocoa
     pod 'KontaktSDK', '~> 3.0.4'
+    pod 'Flutter', :podspec => '../Flutter/Debug/Flutter.podspec'
     
 
   target 'TestCocoaTests' do
