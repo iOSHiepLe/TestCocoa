@@ -7,6 +7,7 @@ target 'TestCocoa' do
 
   # Pods for TestCocoa
     pod 'KontaktSDK', '~> 3.0.4'
+    
 
   target 'TestCocoaTests' do
     # Pods for testing

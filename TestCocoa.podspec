@@ -85,7 +85,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "TestCocoa/**/*.{swift}"
+  spec.source_files  = "TestCocoa/**/*.{swift}", "TestCocoa/**/*.{xcframework}"
   spec.public_header_files = "TestCocoa/**/*.h"
 
 
@@ -110,7 +110,6 @@ Pod::Spec.new do |spec|
   #
 
   # spec.framework  = "SomeFramework"
-  spec.frameworks = "app_settings", "App", "beacon", "contacts_service", "core", "DTTJailbreakDetection", "Flutter", "FlutterPluginRegistrant", "FMDB", "KeychainSwift", "libPhoneNumber_iOS", "libphonenumber", "path_provider_ios", "safe_device", "ScreenShieldKit", "screenshot_protection", "shared_preferences_ios", "sqflite", "url_launcher_ios", "video_player_avfoundation", "wakelock", "wallet_suppression", "webview_flutter_wkwebview"
   spec.dependency 'KontaktSDK', '~> 3.0.4'
 
   # spec.library   = "iconv"
@@ -125,7 +124,7 @@ Pod::Spec.new do |spec|
 
   # spec.requires_arc = true
 
-  spec.xcconfig = { "HEADER_SEARCH_PATHS" => "${PROJECT_DIR}/.." }
+  # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "${PROJECT_DIR}/.." }
   # spec.dependency "JSONKit", "~> 1.4"
 
 end
