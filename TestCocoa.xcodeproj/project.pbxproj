@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0D427FC6B88F91A03685F1EA /* Pods_TestCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2E47AC58143499E1871B8E /* Pods_TestCocoa.framework */; };
 		19168C4CF4A5628867DACE7C /* Pods_TestCocoa_TestCocoaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8EDD7C42C28C224CB33145 /* Pods_TestCocoa_TestCocoaTests.framework */; };
+		3857D3A428B4C31600E91BDC /* TestManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3857D3A328B4C31600E91BDC /* TestManage.swift */; };
 		3898F3A028B4677500DFDD23 /* TestCocoa.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3898F39F28B4677500DFDD23 /* TestCocoa.docc */; };
 		3898F3A628B4677600DFDD23 /* TestCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F39B28B4677500DFDD23 /* TestCocoa.framework */; };
 		3898F3AB28B4677600DFDD23 /* TestCocoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3898F3AA28B4677600DFDD23 /* TestCocoaTests.swift */; };
@@ -57,8 +58,6 @@
 		3898F3F728B4698D00DFDD23 /* beacon.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3CB28B4698B00DFDD23 /* beacon.xcframework */; };
 		3898F3F828B4698D00DFDD23 /* beacon.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3CB28B4698B00DFDD23 /* beacon.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3898F3F928B4698D00DFDD23 /* Flutter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3CC28B4698B00DFDD23 /* Flutter.xcframework */; };
-		3898F3FA28B4698D00DFDD23 /* Flutter.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3CC28B4698B00DFDD23 /* Flutter.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3898F3FD28B46B2600DFDD23 /* Tixngo in Resources */ = {isa = PBXBuildFile; fileRef = 3898F3FC28B46B2600DFDD23 /* Tixngo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,7 +84,6 @@
 				3898F3E228B4698C00DFDD23 /* wallet_suppression.xcframework in Embed Frameworks */,
 				3898F3F228B4698C00DFDD23 /* url_launcher_ios.xcframework in Embed Frameworks */,
 				3898F3D828B4698C00DFDD23 /* app_settings.xcframework in Embed Frameworks */,
-				3898F3FA28B4698D00DFDD23 /* Flutter.xcframework in Embed Frameworks */,
 				3898F3E628B4698C00DFDD23 /* core.xcframework in Embed Frameworks */,
 				3898F3F428B4698C00DFDD23 /* ScreenShieldKit.xcframework in Embed Frameworks */,
 				3898F3DE28B4698C00DFDD23 /* shared_preferences_ios.xcframework in Embed Frameworks */,
@@ -107,6 +105,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3857D3A328B4C31600E91BDC /* TestManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestManage.swift; sourceTree = "<group>"; };
 		3898F39B28B4677500DFDD23 /* TestCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3898F39E28B4677500DFDD23 /* TestCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCocoa.h; sourceTree = "<group>"; };
 		3898F39F28B4677500DFDD23 /* TestCocoa.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TestCocoa.docc; sourceTree = "<group>"; };
@@ -135,7 +134,6 @@
 		3898F3CA28B4698B00DFDD23 /* sqflite.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = sqflite.xcframework; path = ../../../../Desktop/test/Debug/sqflite.xcframework; sourceTree = "<group>"; };
 		3898F3CB28B4698B00DFDD23 /* beacon.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = beacon.xcframework; path = ../../../../Desktop/test/Debug/beacon.xcframework; sourceTree = "<group>"; };
 		3898F3CC28B4698B00DFDD23 /* Flutter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = ../../../../Desktop/test/Debug/Flutter.xcframework; sourceTree = "<group>"; };
-		3898F3FC28B46B2600DFDD23 /* Tixngo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tixngo; sourceTree = "<group>"; };
 		3B85DAC355B75A40FD7B3666 /* Pods-TestCocoa-TestCocoaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCocoa-TestCocoaTests.release.xcconfig"; path = "Target Support Files/Pods-TestCocoa-TestCocoaTests/Pods-TestCocoa-TestCocoaTests.release.xcconfig"; sourceTree = "<group>"; };
 		4B5EB10FDCA22C48F818D9E3 /* Pods-TestCocoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCocoa.release.xcconfig"; path = "Target Support Files/Pods-TestCocoa/Pods-TestCocoa.release.xcconfig"; sourceTree = "<group>"; };
 		56BD303A64A1B32C5A8E7791 /* Pods-TestCocoa-TestCocoaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCocoa-TestCocoaTests.debug.xcconfig"; path = "Target Support Files/Pods-TestCocoa-TestCocoaTests/Pods-TestCocoa-TestCocoaTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -188,6 +186,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3857D3A028B4C2EF00E91BDC /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				3857D3A328B4C31600E91BDC /* TestManage.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 		3898F39128B4677500DFDD23 = {
 			isa = PBXGroup;
 			children = (
@@ -211,7 +217,7 @@
 		3898F39D28B4677500DFDD23 /* TestCocoa */ = {
 			isa = PBXGroup;
 			children = (
-				3898F3FC28B46B2600DFDD23 /* Tixngo */,
+				3857D3A028B4C2EF00E91BDC /* Test */,
 				3898F39E28B4677500DFDD23 /* TestCocoa.h */,
 				3898F39F28B4677500DFDD23 /* TestCocoa.docc */,
 			);
@@ -365,7 +371,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3898F3FD28B46B2600DFDD23 /* Tixngo in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +452,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3857D3A428B4C31600E91BDC /* TestManage.swift in Sources */,
 				3898F3A028B4677500DFDD23 /* TestCocoa.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -664,6 +670,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 56BD303A64A1B32C5A8E7791 /* Pods-TestCocoa-TestCocoaTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -680,6 +687,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3B85DAC355B75A40FD7B3666 /* Pods-TestCocoa-TestCocoaTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
