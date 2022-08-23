@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D427FC6B88F91A03685F1EA /* Pods_TestCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2E47AC58143499E1871B8E /* Pods_TestCocoa.framework */; };
+		19168C4CF4A5628867DACE7C /* Pods_TestCocoa_TestCocoaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8EDD7C42C28C224CB33145 /* Pods_TestCocoa_TestCocoaTests.framework */; };
+		3898F3A028B4677500DFDD23 /* TestCocoa.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3898F39F28B4677500DFDD23 /* TestCocoa.docc */; };
+		3898F3A628B4677600DFDD23 /* TestCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F39B28B4677500DFDD23 /* TestCocoa.framework */; };
+		3898F3AB28B4677600DFDD23 /* TestCocoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3898F3AA28B4677600DFDD23 /* TestCocoaTests.swift */; };
+		3898F3AC28B4677600DFDD23 /* TestCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 3898F39E28B4677500DFDD23 /* TestCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3898F3CD28B4698B00DFDD23 /* safe_device.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3B628B4698B00DFDD23 /* safe_device.xcframework */; };
+		3898F3CE28B4698B00DFDD23 /* safe_device.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3B628B4698B00DFDD23 /* safe_device.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3898F3CF28B4698B00DFDD23 /* libPhoneNumber_iOS.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3B728B4698B00DFDD23 /* libPhoneNumber_iOS.xcframework */; };
+		3898F3D028B4698B00DFDD23 /* libPhoneNumber_iOS.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3B728B4698B00DFDD23 /* libPhoneNumber_iOS.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3898F3D128B4698B00DFDD23 /* FlutterPluginRegistrant.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3B828B4698B00DFDD23 /* FlutterPluginRegistrant.xcframework */; };
+		3898F3D328B4698C00DFDD23 /* path_provider_ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3B928B4698B00DFDD23 /* path_provider_ios.xcframework */; };
+		3898F3D428B4698C00DFDD23 /* path_provider_ios.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3B928B4698B00DFDD23 /* path_provider_ios.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3898F3D528B4698C00DFDD23 /* wakelock.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3BA28B4698B00DFDD23 /* wakelock.xcframework */; };
+		3898F3D628B4698C00DFDD23 /* wakelock.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3BA28B4698B00DFDD23 /* wakelock.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3898F3D728B4698C00DFDD23 /* app_settings.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3BB28B4698B00DFDD23 /* app_settings.xcframework */; };
+		3898F3D828B4698C00DFDD23 /* app_settings.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3BB28B4698B00DFDD23 /* app_settings.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3898F3D928B4698C00DFDD23 /* FMDB.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3BC28B4698B00DFDD23 /* FMDB.xcframework */; };
+		3898F3DA28B4698C00DFDD23 /* FMDB.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3BC28B4698B00DFDD23 /* FMDB.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3898F3DB28B4698C00DFDD23 /* screenshot_protection.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3BD28B4698B00DFDD23 /* screenshot_protection.xcframework */; };
+		3898F3DC28B4698C00DFDD23 /* screenshot_protection.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3BD28B4698B00DFDD23 /* screenshot_protection.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3898F3DD28B4698C00DFDD23 /* shared_preferences_ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3BE28B4698B00DFDD23 /* shared_preferences_ios.xcframework */; };
+		3898F3DE28B4698C00DFDD23 /* shared_preferences_ios.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3BE28B4698B00DFDD23 /* shared_preferences_ios.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3898F3DF28B4698C00DFDD23 /* video_player_avfoundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3BF28B4698B00DFDD23 /* video_player_avfoundation.xcframework */; };
+		3898F3E028B4698C00DFDD23 /* video_player_avfoundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3BF28B4698B00DFDD23 /* video_player_avfoundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3898F3E128B4698C00DFDD23 /* wallet_suppression.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3C028B4698B00DFDD23 /* wallet_suppression.xcframework */; };
+		3898F3E228B4698C00DFDD23 /* wallet_suppression.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3C028B4698B00DFDD23 /* wallet_suppression.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3898F3E328B4698C00DFDD23 /* libphonenumber.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3C128B4698B00DFDD23 /* libphonenumber.xcframework */; };
+		3898F3E428B4698C00DFDD23 /* libphonenumber.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3C128B4698B00DFDD23 /* libphonenumber.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3898F3E528B4698C00DFDD23 /* core.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3C228B4698B00DFDD23 /* core.xcframework */; };
+		3898F3E628B4698C00DFDD23 /* core.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3C228B4698B00DFDD23 /* core.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3898F3E728B4698C00DFDD23 /* App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3C328B4698B00DFDD23 /* App.xcframework */; };
+		3898F3E828B4698C00DFDD23 /* App.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3C328B4698B00DFDD23 /* App.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3898F3E928B4698C00DFDD23 /* DTTJailbreakDetection.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3C428B4698B00DFDD23 /* DTTJailbreakDetection.xcframework */; };
+		3898F3EA28B4698C00DFDD23 /* DTTJailbreakDetection.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3C428B4698B00DFDD23 /* DTTJailbreakDetection.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3898F3EB28B4698C00DFDD23 /* KeychainSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3C528B4698B00DFDD23 /* KeychainSwift.xcframework */; };
+		3898F3EC28B4698C00DFDD23 /* KeychainSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3C528B4698B00DFDD23 /* KeychainSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3898F3ED28B4698C00DFDD23 /* contacts_service.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3C628B4698B00DFDD23 /* contacts_service.xcframework */; };
+		3898F3EE28B4698C00DFDD23 /* contacts_service.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3C628B4698B00DFDD23 /* contacts_service.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3898F3EF28B4698C00DFDD23 /* webview_flutter_wkwebview.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3C728B4698B00DFDD23 /* webview_flutter_wkwebview.xcframework */; };
+		3898F3F028B4698C00DFDD23 /* webview_flutter_wkwebview.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3C728B4698B00DFDD23 /* webview_flutter_wkwebview.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3898F3F128B4698C00DFDD23 /* url_launcher_ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3C828B4698B00DFDD23 /* url_launcher_ios.xcframework */; };
+		3898F3F228B4698C00DFDD23 /* url_launcher_ios.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3C828B4698B00DFDD23 /* url_launcher_ios.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3898F3F328B4698C00DFDD23 /* ScreenShieldKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3C928B4698B00DFDD23 /* ScreenShieldKit.xcframework */; };
+		3898F3F428B4698C00DFDD23 /* ScreenShieldKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3C928B4698B00DFDD23 /* ScreenShieldKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3898F3F528B4698C00DFDD23 /* sqflite.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3CA28B4698B00DFDD23 /* sqflite.xcframework */; };
+		3898F3F628B4698C00DFDD23 /* sqflite.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3CA28B4698B00DFDD23 /* sqflite.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3898F3F728B4698D00DFDD23 /* beacon.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3CB28B4698B00DFDD23 /* beacon.xcframework */; };
+		3898F3F828B4698D00DFDD23 /* beacon.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3CB28B4698B00DFDD23 /* beacon.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3898F3F928B4698D00DFDD23 /* Flutter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3CC28B4698B00DFDD23 /* Flutter.xcframework */; };
+		3898F3FA28B4698D00DFDD23 /* Flutter.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F3CC28B4698B00DFDD23 /* Flutter.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3898F3FD28B46B2600DFDD23 /* Tixngo in Resources */ = {isa = PBXBuildFile; fileRef = 3898F3FC28B46B2600DFDD23 /* Tixngo */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3898F3A728B4677600DFDD23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3898F39228B4677500DFDD23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3898F39A28B4677500DFDD23;
+			remoteInfo = TestCocoa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3898F3FB28B4698D00DFDD23 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3898F3CE28B4698B00DFDD23 /* safe_device.xcframework in Embed Frameworks */,
+				3898F3E828B4698C00DFDD23 /* App.xcframework in Embed Frameworks */,
+				3898F3D628B4698C00DFDD23 /* wakelock.xcframework in Embed Frameworks */,
+				3898F3F828B4698D00DFDD23 /* beacon.xcframework in Embed Frameworks */,
+				3898F3E228B4698C00DFDD23 /* wallet_suppression.xcframework in Embed Frameworks */,
+				3898F3F228B4698C00DFDD23 /* url_launcher_ios.xcframework in Embed Frameworks */,
+				3898F3D828B4698C00DFDD23 /* app_settings.xcframework in Embed Frameworks */,
+				3898F3FA28B4698D00DFDD23 /* Flutter.xcframework in Embed Frameworks */,
+				3898F3E628B4698C00DFDD23 /* core.xcframework in Embed Frameworks */,
+				3898F3F428B4698C00DFDD23 /* ScreenShieldKit.xcframework in Embed Frameworks */,
+				3898F3DE28B4698C00DFDD23 /* shared_preferences_ios.xcframework in Embed Frameworks */,
+				3898F3EE28B4698C00DFDD23 /* contacts_service.xcframework in Embed Frameworks */,
+				3898F3E028B4698C00DFDD23 /* video_player_avfoundation.xcframework in Embed Frameworks */,
+				3898F3D428B4698C00DFDD23 /* path_provider_ios.xcframework in Embed Frameworks */,
+				3898F3EC28B4698C00DFDD23 /* KeychainSwift.xcframework in Embed Frameworks */,
+				3898F3E428B4698C00DFDD23 /* libphonenumber.xcframework in Embed Frameworks */,
+				3898F3F028B4698C00DFDD23 /* webview_flutter_wkwebview.xcframework in Embed Frameworks */,
+				3898F3EA28B4698C00DFDD23 /* DTTJailbreakDetection.xcframework in Embed Frameworks */,
+				3898F3DC28B4698C00DFDD23 /* screenshot_protection.xcframework in Embed Frameworks */,
+				3898F3F628B4698C00DFDD23 /* sqflite.xcframework in Embed Frameworks */,
+				3898F3DA28B4698C00DFDD23 /* FMDB.xcframework in Embed Frameworks */,
+				3898F3D028B4698B00DFDD23 /* libPhoneNumber_iOS.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3898F39B28B4677500DFDD23 /* TestCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3898F39E28B4677500DFDD23 /* TestCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCocoa.h; sourceTree = "<group>"; };
+		3898F39F28B4677500DFDD23 /* TestCocoa.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TestCocoa.docc; sourceTree = "<group>"; };
+		3898F3A528B4677600DFDD23 /* TestCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3898F3AA28B4677600DFDD23 /* TestCocoaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCocoaTests.swift; sourceTree = "<group>"; };
+		3898F3B628B4698B00DFDD23 /* safe_device.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = safe_device.xcframework; path = ../../../../Desktop/test/Debug/safe_device.xcframework; sourceTree = "<group>"; };
+		3898F3B728B4698B00DFDD23 /* libPhoneNumber_iOS.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libPhoneNumber_iOS.xcframework; path = ../../../../Desktop/test/Debug/libPhoneNumber_iOS.xcframework; sourceTree = "<group>"; };
+		3898F3B828B4698B00DFDD23 /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FlutterPluginRegistrant.xcframework; path = ../../../../Desktop/test/Debug/FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
+		3898F3B928B4698B00DFDD23 /* path_provider_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = path_provider_ios.xcframework; path = ../../../../Desktop/test/Debug/path_provider_ios.xcframework; sourceTree = "<group>"; };
+		3898F3BA28B4698B00DFDD23 /* wakelock.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = wakelock.xcframework; path = ../../../../Desktop/test/Debug/wakelock.xcframework; sourceTree = "<group>"; };
+		3898F3BB28B4698B00DFDD23 /* app_settings.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = app_settings.xcframework; path = ../../../../Desktop/test/Debug/app_settings.xcframework; sourceTree = "<group>"; };
+		3898F3BC28B4698B00DFDD23 /* FMDB.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FMDB.xcframework; path = ../../../../Desktop/test/Debug/FMDB.xcframework; sourceTree = "<group>"; };
+		3898F3BD28B4698B00DFDD23 /* screenshot_protection.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = screenshot_protection.xcframework; path = ../../../../Desktop/test/Debug/screenshot_protection.xcframework; sourceTree = "<group>"; };
+		3898F3BE28B4698B00DFDD23 /* shared_preferences_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = shared_preferences_ios.xcframework; path = ../../../../Desktop/test/Debug/shared_preferences_ios.xcframework; sourceTree = "<group>"; };
+		3898F3BF28B4698B00DFDD23 /* video_player_avfoundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = video_player_avfoundation.xcframework; path = ../../../../Desktop/test/Debug/video_player_avfoundation.xcframework; sourceTree = "<group>"; };
+		3898F3C028B4698B00DFDD23 /* wallet_suppression.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = wallet_suppression.xcframework; path = ../../../../Desktop/test/Debug/wallet_suppression.xcframework; sourceTree = "<group>"; };
+		3898F3C128B4698B00DFDD23 /* libphonenumber.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libphonenumber.xcframework; path = ../../../../Desktop/test/Debug/libphonenumber.xcframework; sourceTree = "<group>"; };
+		3898F3C228B4698B00DFDD23 /* core.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = core.xcframework; path = ../../../../Desktop/test/Debug/core.xcframework; sourceTree = "<group>"; };
+		3898F3C328B4698B00DFDD23 /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = ../../../../Desktop/test/Debug/App.xcframework; sourceTree = "<group>"; };
+		3898F3C428B4698B00DFDD23 /* DTTJailbreakDetection.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = DTTJailbreakDetection.xcframework; path = ../../../../Desktop/test/Debug/DTTJailbreakDetection.xcframework; sourceTree = "<group>"; };
+		3898F3C528B4698B00DFDD23 /* KeychainSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = KeychainSwift.xcframework; path = ../../../../Desktop/test/Debug/KeychainSwift.xcframework; sourceTree = "<group>"; };
+		3898F3C628B4698B00DFDD23 /* contacts_service.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = contacts_service.xcframework; path = ../../../../Desktop/test/Debug/contacts_service.xcframework; sourceTree = "<group>"; };
+		3898F3C728B4698B00DFDD23 /* webview_flutter_wkwebview.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = webview_flutter_wkwebview.xcframework; path = ../../../../Desktop/test/Debug/webview_flutter_wkwebview.xcframework; sourceTree = "<group>"; };
+		3898F3C828B4698B00DFDD23 /* url_launcher_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = url_launcher_ios.xcframework; path = ../../../../Desktop/test/Debug/url_launcher_ios.xcframework; sourceTree = "<group>"; };
+		3898F3C928B4698B00DFDD23 /* ScreenShieldKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ScreenShieldKit.xcframework; path = ../../../../Desktop/test/Debug/ScreenShieldKit.xcframework; sourceTree = "<group>"; };
+		3898F3CA28B4698B00DFDD23 /* sqflite.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = sqflite.xcframework; path = ../../../../Desktop/test/Debug/sqflite.xcframework; sourceTree = "<group>"; };
+		3898F3CB28B4698B00DFDD23 /* beacon.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = beacon.xcframework; path = ../../../../Desktop/test/Debug/beacon.xcframework; sourceTree = "<group>"; };
+		3898F3CC28B4698B00DFDD23 /* Flutter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = ../../../../Desktop/test/Debug/Flutter.xcframework; sourceTree = "<group>"; };
+		3898F3FC28B46B2600DFDD23 /* Tixngo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tixngo; sourceTree = "<group>"; };
+		3B85DAC355B75A40FD7B3666 /* Pods-TestCocoa-TestCocoaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCocoa-TestCocoaTests.release.xcconfig"; path = "Target Support Files/Pods-TestCocoa-TestCocoaTests/Pods-TestCocoa-TestCocoaTests.release.xcconfig"; sourceTree = "<group>"; };
+		4B5EB10FDCA22C48F818D9E3 /* Pods-TestCocoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCocoa.release.xcconfig"; path = "Target Support Files/Pods-TestCocoa/Pods-TestCocoa.release.xcconfig"; sourceTree = "<group>"; };
+		56BD303A64A1B32C5A8E7791 /* Pods-TestCocoa-TestCocoaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCocoa-TestCocoaTests.debug.xcconfig"; path = "Target Support Files/Pods-TestCocoa-TestCocoaTests/Pods-TestCocoa-TestCocoaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA2E47AC58143499E1871B8E /* Pods_TestCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF974E222FF08188252DC883 /* Pods-TestCocoa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCocoa.debug.xcconfig"; path = "Target Support Files/Pods-TestCocoa/Pods-TestCocoa.debug.xcconfig"; sourceTree = "<group>"; };
+		FA8EDD7C42C28C224CB33145 /* Pods_TestCocoa_TestCocoaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestCocoa_TestCocoaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3898F39828B4677500DFDD23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3898F3CD28B4698B00DFDD23 /* safe_device.xcframework in Frameworks */,
+				3898F3E728B4698C00DFDD23 /* App.xcframework in Frameworks */,
+				3898F3D528B4698C00DFDD23 /* wakelock.xcframework in Frameworks */,
+				3898F3F728B4698D00DFDD23 /* beacon.xcframework in Frameworks */,
+				3898F3E128B4698C00DFDD23 /* wallet_suppression.xcframework in Frameworks */,
+				3898F3F128B4698C00DFDD23 /* url_launcher_ios.xcframework in Frameworks */,
+				3898F3D728B4698C00DFDD23 /* app_settings.xcframework in Frameworks */,
+				3898F3F928B4698D00DFDD23 /* Flutter.xcframework in Frameworks */,
+				3898F3E528B4698C00DFDD23 /* core.xcframework in Frameworks */,
+				3898F3F328B4698C00DFDD23 /* ScreenShieldKit.xcframework in Frameworks */,
+				3898F3DD28B4698C00DFDD23 /* shared_preferences_ios.xcframework in Frameworks */,
+				3898F3ED28B4698C00DFDD23 /* contacts_service.xcframework in Frameworks */,
+				3898F3DF28B4698C00DFDD23 /* video_player_avfoundation.xcframework in Frameworks */,
+				3898F3D328B4698C00DFDD23 /* path_provider_ios.xcframework in Frameworks */,
+				3898F3EB28B4698C00DFDD23 /* KeychainSwift.xcframework in Frameworks */,
+				3898F3E328B4698C00DFDD23 /* libphonenumber.xcframework in Frameworks */,
+				3898F3EF28B4698C00DFDD23 /* webview_flutter_wkwebview.xcframework in Frameworks */,
+				3898F3E928B4698C00DFDD23 /* DTTJailbreakDetection.xcframework in Frameworks */,
+				3898F3DB28B4698C00DFDD23 /* screenshot_protection.xcframework in Frameworks */,
+				3898F3F528B4698C00DFDD23 /* sqflite.xcframework in Frameworks */,
+				3898F3D128B4698B00DFDD23 /* FlutterPluginRegistrant.xcframework in Frameworks */,
+				3898F3D928B4698C00DFDD23 /* FMDB.xcframework in Frameworks */,
+				3898F3CF28B4698B00DFDD23 /* libPhoneNumber_iOS.xcframework in Frameworks */,
+				0D427FC6B88F91A03685F1EA /* Pods_TestCocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3898F3A228B4677600DFDD23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3898F3A628B4677600DFDD23 /* TestCocoa.framework in Frameworks */,
+				19168C4CF4A5628867DACE7C /* Pods_TestCocoa_TestCocoaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3898F39128B4677500DFDD23 = {
+			isa = PBXGroup;
+			children = (
+				3898F39D28B4677500DFDD23 /* TestCocoa */,
+				3898F3A928B4677600DFDD23 /* TestCocoaTests */,
+				3898F39C28B4677500DFDD23 /* Products */,
+				3898F3B528B4698B00DFDD23 /* Frameworks */,
+				D04A6DC8563A6B8314DCE297 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3898F39C28B4677500DFDD23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3898F39B28B4677500DFDD23 /* TestCocoa.framework */,
+				3898F3A528B4677600DFDD23 /* TestCocoaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3898F39D28B4677500DFDD23 /* TestCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				3898F3FC28B46B2600DFDD23 /* Tixngo */,
+				3898F39E28B4677500DFDD23 /* TestCocoa.h */,
+				3898F39F28B4677500DFDD23 /* TestCocoa.docc */,
+			);
+			path = TestCocoa;
+			sourceTree = "<group>";
+		};
+		3898F3A928B4677600DFDD23 /* TestCocoaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3898F3AA28B4677600DFDD23 /* TestCocoaTests.swift */,
+			);
+			path = TestCocoaTests;
+			sourceTree = "<group>";
+		};
+		3898F3B528B4698B00DFDD23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3898F3BB28B4698B00DFDD23 /* app_settings.xcframework */,
+				3898F3C328B4698B00DFDD23 /* App.xcframework */,
+				3898F3CB28B4698B00DFDD23 /* beacon.xcframework */,
+				3898F3C628B4698B00DFDD23 /* contacts_service.xcframework */,
+				3898F3C228B4698B00DFDD23 /* core.xcframework */,
+				3898F3C428B4698B00DFDD23 /* DTTJailbreakDetection.xcframework */,
+				3898F3CC28B4698B00DFDD23 /* Flutter.xcframework */,
+				3898F3B828B4698B00DFDD23 /* FlutterPluginRegistrant.xcframework */,
+				3898F3BC28B4698B00DFDD23 /* FMDB.xcframework */,
+				3898F3C528B4698B00DFDD23 /* KeychainSwift.xcframework */,
+				3898F3B728B4698B00DFDD23 /* libPhoneNumber_iOS.xcframework */,
+				3898F3C128B4698B00DFDD23 /* libphonenumber.xcframework */,
+				3898F3B928B4698B00DFDD23 /* path_provider_ios.xcframework */,
+				3898F3B628B4698B00DFDD23 /* safe_device.xcframework */,
+				3898F3C928B4698B00DFDD23 /* ScreenShieldKit.xcframework */,
+				3898F3BD28B4698B00DFDD23 /* screenshot_protection.xcframework */,
+				3898F3BE28B4698B00DFDD23 /* shared_preferences_ios.xcframework */,
+				3898F3CA28B4698B00DFDD23 /* sqflite.xcframework */,
+				3898F3C828B4698B00DFDD23 /* url_launcher_ios.xcframework */,
+				3898F3BF28B4698B00DFDD23 /* video_player_avfoundation.xcframework */,
+				3898F3BA28B4698B00DFDD23 /* wakelock.xcframework */,
+				3898F3C028B4698B00DFDD23 /* wallet_suppression.xcframework */,
+				3898F3C728B4698B00DFDD23 /* webview_flutter_wkwebview.xcframework */,
+				DA2E47AC58143499E1871B8E /* Pods_TestCocoa.framework */,
+				FA8EDD7C42C28C224CB33145 /* Pods_TestCocoa_TestCocoaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D04A6DC8563A6B8314DCE297 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF974E222FF08188252DC883 /* Pods-TestCocoa.debug.xcconfig */,
+				4B5EB10FDCA22C48F818D9E3 /* Pods-TestCocoa.release.xcconfig */,
+				56BD303A64A1B32C5A8E7791 /* Pods-TestCocoa-TestCocoaTests.debug.xcconfig */,
+				3B85DAC355B75A40FD7B3666 /* Pods-TestCocoa-TestCocoaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3898F39628B4677500DFDD23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3898F3AC28B4677600DFDD23 /* TestCocoa.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3898F39A28B4677500DFDD23 /* TestCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3898F3AF28B4677600DFDD23 /* Build configuration list for PBXNativeTarget "TestCocoa" */;
+			buildPhases = (
+				2C1664C72CEF3E969F43B3EF /* [CP] Check Pods Manifest.lock */,
+				3898F39628B4677500DFDD23 /* Headers */,
+				3898F39728B4677500DFDD23 /* Sources */,
+				3898F39828B4677500DFDD23 /* Frameworks */,
+				3898F39928B4677500DFDD23 /* Resources */,
+				3898F3FB28B4698D00DFDD23 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestCocoa;
+			productName = TestCocoa;
+			productReference = 3898F39B28B4677500DFDD23 /* TestCocoa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3898F3A428B4677600DFDD23 /* TestCocoaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3898F3B228B4677600DFDD23 /* Build configuration list for PBXNativeTarget "TestCocoaTests" */;
+			buildPhases = (
+				6C364BB7EE1495C78354264F /* [CP] Check Pods Manifest.lock */,
+				3898F3A128B4677600DFDD23 /* Sources */,
+				3898F3A228B4677600DFDD23 /* Frameworks */,
+				3898F3A328B4677600DFDD23 /* Resources */,
+				0AB2F7CCE614778502A53A00 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3898F3A828B4677600DFDD23 /* PBXTargetDependency */,
+			);
+			name = TestCocoaTests;
+			productName = TestCocoaTests;
+			productReference = 3898F3A528B4677600DFDD23 /* TestCocoaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3898F39228B4677500DFDD23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					3898F39A28B4677500DFDD23 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					3898F3A428B4677600DFDD23 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 3898F39528B4677500DFDD23 /* Build configuration list for PBXProject "TestCocoa" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3898F39128B4677500DFDD23;
+			productRefGroup = 3898F39C28B4677500DFDD23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3898F39A28B4677500DFDD23 /* TestCocoa */,
+				3898F3A428B4677600DFDD23 /* TestCocoaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3898F39928B4677500DFDD23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3898F3FD28B46B2600DFDD23 /* Tixngo in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3898F3A328B4677600DFDD23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AB2F7CCE614778502A53A00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestCocoa-TestCocoaTests/Pods-TestCocoa-TestCocoaTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestCocoa-TestCocoaTests/Pods-TestCocoa-TestCocoaTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestCocoa-TestCocoaTests/Pods-TestCocoa-TestCocoaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C1664C72CEF3E969F43B3EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestCocoa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C364BB7EE1495C78354264F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestCocoa-TestCocoaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3898F39728B4677500DFDD23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3898F3A028B4677500DFDD23 /* TestCocoa.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3898F3A128B4677600DFDD23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3898F3AB28B4677600DFDD23 /* TestCocoaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3898F3A828B4677600DFDD23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3898F39A28B4677500DFDD23 /* TestCocoa */;
+			targetProxy = 3898F3A728B4677600DFDD23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3898F3AD28B4677600DFDD23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3898F3AE28B4677600DFDD23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3898F3B028B4677600DFDD23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF974E222FF08188252DC883 /* Pods-TestCocoa.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/KontaktSDK/Cocoapods/KontaktSDK/iOS\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/KontaktSDK\"",
+					/Users/lemh/Documents/workspace/RnD/TestCocoa/Debug,
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.trixngo.TestCocoa;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3898F3B128B4677600DFDD23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B5EB10FDCA22C48F818D9E3 /* Pods-TestCocoa.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/KontaktSDK/Cocoapods/KontaktSDK/iOS\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/KontaktSDK\"",
+					/Users/lemh/Documents/workspace/RnD/TestCocoa/Debug,
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.trixngo.TestCocoa;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3898F3B328B4677600DFDD23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56BD303A64A1B32C5A8E7791 /* Pods-TestCocoa-TestCocoaTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.trixngo.TestCocoaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3898F3B428B4677600DFDD23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B85DAC355B75A40FD7B3666 /* Pods-TestCocoa-TestCocoaTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.trixngo.TestCocoaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3898F39528B4677500DFDD23 /* Build configuration list for PBXProject "TestCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3898F3AD28B4677600DFDD23 /* Debug */,
+				3898F3AE28B4677600DFDD23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3898F3AF28B4677600DFDD23 /* Build configuration list for PBXNativeTarget "TestCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3898F3B028B4677600DFDD23 /* Debug */,
+				3898F3B128B4677600DFDD23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3898F3B228B4677600DFDD23 /* Build configuration list for PBXNativeTarget "TestCocoaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3898F3B328B4677600DFDD23 /* Debug */,
+				3898F3B428B4677600DFDD23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3898F39228B4677500DFDD23 /* Project object */;
+}

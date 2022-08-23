@@ -1,0 +1,16 @@
+PODS:
+  - KontaktSDK (3.0.25)
+
+DEPENDENCIES:
+  - KontaktSDK (~> 3.0.4)
+
+SPEC REPOS:
+  trunk:
+    - KontaktSDK
+
+SPEC CHECKSUMS:
+  KontaktSDK: d1c31542fea1f11fa5ad857b69e19d0888f56436
+
+PODFILE CHECKSUM: 24732e3aae7eaffa623e9ceb6e4b9a741e6c23d5
+
+COCOAPODS: 1.11.3
