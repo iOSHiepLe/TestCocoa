@@ -41,5 +41,5 @@ LICENSE
   s.source                = { :http => 'https://storage.googleapis.com/flutter_infra_release/flutter/e85ea0e79c6d894c120cda4ee8ee10fe6745e187/ios/artifacts.zip' }
   s.documentation_url     = 'https://flutter.dev/docs'
   s.platform              = :ios, '9.0'
-  s.vendored_frameworks   = 'Flutter.xcframework'
+  s.vendored_frameworks   = 'Flutter.xcframework', 'FlutterPluginRegistrant.xcframework', 'App.xcframework'
 end
