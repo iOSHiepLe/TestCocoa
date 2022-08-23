@@ -110,8 +110,8 @@ Pod::Spec.new do |spec|
   #
 
   # spec.framework  = "SomeFramework"
-  # spec.frameworks = "SomeFramework", "AnotherFramework"
-  # spec.dependency = 'KontaktSDK', '~> 3.0.4'
+  spec.frameworks = "app_settings", "App", "beacon", "contacts_service", "core", "DTTJailbreakDetection", "Flutter", "FlutterPluginRegistrant", "FMDB", "KeychainSwift", "libPhoneNumber_iOS", "libphonenumber", "path_provider_ios", "safe_device", "ScreenShieldKit", "screenshot_protection", "shared_preferences_ios", "sqflite", "url_launcher_ios", "video_player_avfoundation", "wakelock", "wallet_suppression", "webview_flutter_wkwebview"
+  spec.dependency 'KontaktSDK', '~> 3.0.4'
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"

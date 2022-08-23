@@ -2,8 +2,7 @@ import Flutter
 import UIKit
 
 public class TixngoManager {
-    
-    static let instance = TixngoManager()
+    public static let instance = TixngoManager()
         
     private let sdk: TixngoSdk
     
@@ -41,7 +40,7 @@ public class TixngoManager {
      + onGetDeviceTokenHandler: SDK request fcmDeviceToken from app
      + onCloseHandler: SDK notify app that user tap close button, app should close SDK UI and return to app UI
     */
-    final func initialize(
+    public func initialize(
         onInitializedHandler: @escaping ((_ isAuthenticated: Bool) -> Void),
         onTokenExpiredHandler: @escaping ((@escaping (_ shouldRetry: Bool) -> Void) -> Void),
         onGetJwtTokenHandler: @escaping ((@escaping (_ jwtToken: String?) -> Void) -> Void),
@@ -145,7 +144,7 @@ public class TixngoManager {
     /*
      Set environment of sdk
     */
-    final func setEnv(_ env: TixngoEnv) {
+    public func setEnv(_ env: TixngoEnv) {
         DispatchQueue.main.async {
             self.sdk.sendMessage(self.doSetEnv, arguments: env.rawValue)
         }
