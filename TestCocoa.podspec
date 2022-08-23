@@ -85,7 +85,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "TestCocoa/**/*.{swift}", "TestCocoa/**/*.{xcframework}"
+  spec.source_files  = "TestCocoa/**/*.{swift}"
   spec.public_header_files = "TestCocoa/**/*.h"
 
 
@@ -110,6 +110,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.framework  = "SomeFramework"
+  spec.frameworks = "TestCocoa/**/*.{xcframework}"
   spec.dependency 'KontaktSDK', '~> 3.0.4'
 
   # spec.library   = "iconv"
