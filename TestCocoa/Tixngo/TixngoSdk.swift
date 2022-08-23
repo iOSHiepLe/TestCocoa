@@ -1,10 +1,6 @@
-import Flutter
 import UIKit
-import FlutterPluginRegistrant
-
 
 class TixngoSdk {
-        
     private let flutterEngine = FlutterEngine(name: "engine")
     
     private let channel: FlutterMethodChannel
