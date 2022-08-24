@@ -7,27 +7,12 @@
 #
 
 Pod::Spec.new do |spec|
-
-  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  These will help people to find your library, and whilst it
-  #  can feel like a chore to fill in it's definitely to your advantage. The
-  #  summary should be tweet-length, and the description more in depth.
-  #
-
   spec.name         = "TestCocoa"
   spec.version      = "0.0.1"
   spec.summary      = "Test for dynamic framework"
-
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = "improve for pull other framework"
 
   spec.homepage     = "http://EXAMPLE/TestCocoa"
-  # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -51,9 +36,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.author             = { "HiepLe" => "hieplemobile@gmail.com" }
-  # Or just: spec.author    = "HiepLe"
-  # spec.authors            = { "HiepLe" => "hieplemobile@gmail.com" }
-  # spec.social_media_url   = "https://twitter.com/HiepLe"
+
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -66,67 +49,12 @@ Pod::Spec.new do |spec|
 
   #  When using multiple platforms
   spec.ios.deployment_target = "10.0"
-
-
-  # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Specify the location from where the source should be retrieved.
-  #  Supports git, hg, bzr, svn and HTTP.
-  #
-
   spec.source       = { :git => "https://github.com/iOSHiepLe/TestCocoa.git", :tag => "#{spec.version}" }
-
-
-  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  CocoaPods is smart about how it includes source code. For source files
-  #  giving a folder will include any swift, h, m, mm, c & cpp files.
-  #  For header files it will include any header in the folder.
-  #  Not including the public_header_files will make all headers public.
-  #
 
   spec.source_files  = "TestCocoa/**/*.{swift}"
   spec.public_header_files = "TestCocoa/**/*.h"
-
-
-  # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  A list of resources included with the Pod. These are copied into the
-  #  target bundle with a build phase script. Anything else will be cleaned.
-  #  You can preserve files from being cleaned, please don't preserve
-  #  non-essential files like tests, examples and documentation.
-  #
-
-  # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
-
-  # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
-
-
-  # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Link your library with frameworks, or libraries. Libraries do not include
-  #  the lib prefix of their name.
-  #
-
-  spec.framework  = "FlutterPluginRegistrant"
-  # spec.frameworks = "Flutter", "FlutterPluginRegistrant"
     spec.dependency 'KontaktSDK', '~> 3.0.4'
     spec.dependency 'Flutter'
-
-  # spec.library   = "iconv"
-  # spec.libraries = "iconv", "xml2"
-
-
-  # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  If your library depends on compiler flags you can set them in the xcconfig hash
-  #  where they will only apply to your library. If you depend on other Podspecs
-  #  you can include multiple dependencies to ensure it works.
-
-  # spec.requires_arc = true
-
-  # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "${PROJECT_DIR}/.." }
-  # spec.dependency "JSONKit", "~> 1.4"
+    spec.dependency 'FlutterPluginRegistrant', :path => 'TestCocoa/Flutter/Debug/FlutterPluginRegistrant.xcframework'
 
 end
