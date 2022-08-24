@@ -9,7 +9,6 @@ target 'TestCocoa' do
     pod 'KontaktSDK', '~> 3.0.4'
     pod 'Flutter', :podspec => '../Flutter/Debug/Flutter.podspec'
     pod 'FlutterPluginRegistrant', :podspec => '../Flutter/Debug/FlutterPluginRegistrant.podspec'
-    
   target 'TestCocoaTests' do
     # Pods for testing
   end
