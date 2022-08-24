@@ -41,5 +41,7 @@ LICENSE
   s.source                = { :path => '/Users/lemh/Documents/workspace/RnD/TestCocoa/TestCocoa/Flutter/Debug/FlutterPluginRegistrant.xcframework' }
   s.documentation_url     = 'https://flutter.dev/docs'
   s.platform              = :ios, '10.0'
+  s.preserve_paths =  'FlutterPluginRegistrant.xcframework/*'
+    s.source_files = 'FlutterPluginRegistrant.xcframework/ios-arm64_armv7/PicUPSDKv3.framework/Headers/*.{h,m,swift}'
   s.vendored_frameworks   = 'FlutterPluginRegistrant.xcframework'
 end
