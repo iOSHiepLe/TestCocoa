@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
+		1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6164B05B5EAB7A16188BE69BCC9EBC7E /* Build configuration list for PBXAggregateTarget "Flutter" */;
+			buildPhases = (
+				1942DC242E5E1329454EB610A4490AAB /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = Flutter;
+		};
 		370FE6B7BD2AAF5FF298EAF84D61B7C4 /* KontaktSDK */ = {
 			isa = PBXAggregateTarget;
 			buildConfigurationList = CD6C068D8EF60DBFD69910D728B67D83 /* Build configuration list for PBXAggregateTarget "KontaktSDK" */;
@@ -16,119 +26,99 @@
 			dependencies = (
 			);
 			name = KontaktSDK;
-			productName = KontaktSDK;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0D5140FDFDBD77CFD430F728FFAC721F /* Pods-TestCocoa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C04B6E374FE37240DE4F710036E4AF68 /* Pods-TestCocoa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3DA54199AC76911F2164D85D256437C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		4748AA3AF005BCA24F7335C99C10F616 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A95678E25CCB7FEF310E16FC150B2DEB /* Pods-TestCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 072B950B53FFDBD407D3CA7B2D6E7147 /* Pods-TestCocoa-dummy.m */; };
-		C77BAD095871FBDE14FB3B7AD91C4703 /* Pods-TestCocoa-TestCocoaTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11F293977622D66B7B77EDE9092CE8E8 /* Pods-TestCocoa-TestCocoaTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE9758D99AD02D30490B7579061FC505 /* Pods-TestCocoa-TestCocoaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8AF5D32DACEEF81CCBD886550DFB9A /* Pods-TestCocoa-TestCocoaTests-dummy.m */; };
+		4A867696B5B9D1ED8B47E1F4C95B8134 /* Pods-TestCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C0924C13D3FDA5998FCF502E3B45B5 /* Pods-TestCocoa-dummy.m */; };
+		7776612F04B4FBB5AC166F6B652A0B96 /* Pods-TestCocoa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F56F6BE095EEE2CAE1489101AA3907A0 /* Pods-TestCocoa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		930525A248C9BF0CFB04763BF9252C9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		777D6CAEB43DF2565362DCD55AD856C9 /* PBXContainerItemProxy */ = {
+		39D20AD86C312E94246AAAA48B20AC18 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 370FE6B7BD2AAF5FF298EAF84D61B7C4;
 			remoteInfo = KontaktSDK;
 		};
-		AFAA73802440E5F8BE5CC4AA6CE42D5E /* PBXContainerItemProxy */ = {
+		E0CC5FDC903BA275F1E704EC2A4CD794 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 370FE6B7BD2AAF5FF298EAF84D61B7C4;
-			remoteInfo = KontaktSDK;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0030F75F11E5E0C26EE508C53EDF31AF /* Pods-TestCocoa-TestCocoaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestCocoa-TestCocoaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		05FC3EB9BCD41F4E0AFA5A6810CEBDF7 /* Pods_TestCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		072B950B53FFDBD407D3CA7B2D6E7147 /* Pods-TestCocoa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestCocoa-dummy.m"; sourceTree = "<group>"; };
-		0DB629F24D27EE298303D7BF42CC60FF /* Pods-TestCocoa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestCocoa.debug.xcconfig"; sourceTree = "<group>"; };
-		11F293977622D66B7B77EDE9092CE8E8 /* Pods-TestCocoa-TestCocoaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestCocoa-TestCocoaTests-umbrella.h"; sourceTree = "<group>"; };
-		22D7C9C7E1E06A3903474BE8050BCA21 /* KontaktSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = KontaktSDK.xcframework; path = Cocoapods/KontaktSDK/iOS/KontaktSDK.xcframework; sourceTree = "<group>"; };
-		2BE0E6C497F142B7A75CC4D1390B0C4F /* KontaktSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KontaktSDK.debug.xcconfig; sourceTree = "<group>"; };
-		40A2C107B0767F7EEE80516538B320C1 /* KontaktSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "KontaktSDK-xcframeworks.sh"; sourceTree = "<group>"; };
-		41E4089904CB9A199310AE2FD5491CDB /* Pods-TestCocoa-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestCocoa-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4E8AF5D32DACEEF81CCBD886550DFB9A /* Pods-TestCocoa-TestCocoaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestCocoa-TestCocoaTests-dummy.m"; sourceTree = "<group>"; };
-		514FBFBAD0BF251D97948A3630BEDBDD /* Pods-TestCocoa-TestCocoaTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestCocoa-TestCocoaTests"; path = Pods_TestCocoa_TestCocoaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		582C9428575E43C0875CF08D748128B4 /* Pods-TestCocoa-TestCocoaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestCocoa-TestCocoaTests.release.xcconfig"; sourceTree = "<group>"; };
-		5E6B213E0C3DA77DACC321D5A90FC0D0 /* Pods-TestCocoa-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestCocoa-acknowledgements.plist"; sourceTree = "<group>"; };
+		05FC3EB9BCD41F4E0AFA5A6810CEBDF7 /* Pods-TestCocoa */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestCocoa"; path = Pods_TestCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A03C2B7AD6BAA45785226F038CED292 /* KontaktSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KontaktSDK.release.xcconfig; sourceTree = "<group>"; };
+		19B35912DE93247309DF30467E2AB4BC /* Pods-TestCocoa-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestCocoa-Info.plist"; sourceTree = "<group>"; };
+		37C0924C13D3FDA5998FCF502E3B45B5 /* Pods-TestCocoa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestCocoa-dummy.m"; sourceTree = "<group>"; };
+		602CF2F318640DE7B9798BAC274CDC25 /* Pods-TestCocoa-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestCocoa-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6E05C963AA604678BDE72D8AED458F05 /* Flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.debug.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7E99A4790FBE73707BBC40C870A83CAB /* Pods-TestCocoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestCocoa.release.xcconfig"; sourceTree = "<group>"; };
-		8C8F4815B3A3FFBAB7F4A653A043ED7E /* Pods-TestCocoa-TestCocoaTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestCocoa-TestCocoaTests-Info.plist"; sourceTree = "<group>"; };
-		90FEE7F1973330E73BED074C6312D31C /* Pods-TestCocoa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestCocoa.modulemap"; sourceTree = "<group>"; };
-		9D5D5194516E8FDC0B255DC54A9A2992 /* Pods-TestCocoa-TestCocoaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestCocoa-TestCocoaTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B183B9A6ECE016780A050EC7473A445B /* Pods-TestCocoa-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestCocoa-Info.plist"; sourceTree = "<group>"; };
-		C04B6E374FE37240DE4F710036E4AF68 /* Pods-TestCocoa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestCocoa-umbrella.h"; sourceTree = "<group>"; };
-		C497C7BD699BEAED39BA5E976000668E /* Pods-TestCocoa-TestCocoaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestCocoa-TestCocoaTests.modulemap"; sourceTree = "<group>"; };
-		C6047C4BCBB22A028A9AA3AA4B43B256 /* KontaktSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KontaktSDK.release.xcconfig; sourceTree = "<group>"; };
-		DF563958013E6B6A6913836DE727B65D /* Pods-TestCocoa-TestCocoaTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestCocoa-TestCocoaTests-frameworks.sh"; sourceTree = "<group>"; };
-		F1D4E4FF0842C411B1EA8BFE4ACCB0D6 /* Pods-TestCocoa-TestCocoaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestCocoa-TestCocoaTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8FB3E3FE4368EC24D18D85D76951905C /* KontaktSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "KontaktSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		91E044EFEE8B5B01481165A93AEA003B /* Flutter-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Flutter-xcframeworks.sh"; sourceTree = "<group>"; };
+		956E99446997C92649D86BF83BB90354 /* Flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1DD0BE0DF85623E7C4BA4D1479E817D /* Pods-TestCocoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestCocoa.release.xcconfig"; sourceTree = "<group>"; };
+		A759167C8DBA65A5D31701E6F785F2B3 /* KontaktSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KontaktSDK.debug.xcconfig; sourceTree = "<group>"; };
+		BCB28D94889A0C34C98EFD87EFA24A77 /* Flutter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = Flutter.xcframework; sourceTree = "<group>"; };
+		C8326CE96D32207A18919099D3748B15 /* Pods-TestCocoa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestCocoa.modulemap"; sourceTree = "<group>"; };
+		DA3BFCE0EE1BCACC53FC68929E7CB109 /* Pods-TestCocoa-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestCocoa-acknowledgements.plist"; sourceTree = "<group>"; };
+		EE51EE46573687A8B9B317A87F4AF4C0 /* Pods-TestCocoa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestCocoa.debug.xcconfig"; sourceTree = "<group>"; };
+		EF31AE8C71708B5511AC0ACEA87F385C /* KontaktSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = KontaktSDK.xcframework; path = Cocoapods/KontaktSDK/iOS/KontaktSDK.xcframework; sourceTree = "<group>"; };
+		F56F6BE095EEE2CAE1489101AA3907A0 /* Pods-TestCocoa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestCocoa-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		69F36A742ECB66FB92418D1F76B95FD8 /* Frameworks */ = {
+		774F533C43C56E6817D2F136EE3DC083 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4748AA3AF005BCA24F7335C99C10F616 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8459FF135B43A9F8BF9EC9CE01A5FC1D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3DA54199AC76911F2164D85D256437C0 /* Foundation.framework in Frameworks */,
+				930525A248C9BF0CFB04763BF9252C9D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B68A2824B0296B33B8CDD53186FF4F2 /* KontaktSDK */ = {
+		09BB7214FEE7C79C8B194B37B9D02843 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D617052D501A34262EAABBA18FF93E6 /* Frameworks */,
-				412E9286EB9CEE555762DE19B9A6F337 /* Support Files */,
+				05FC3EB9BCD41F4E0AFA5A6810CEBDF7 /* Pods-TestCocoa */,
 			);
-			path = KontaktSDK;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		1D617052D501A34262EAABBA18FF93E6 /* Frameworks */ = {
+		158E6B4F1EC6E2D3B07DBAB5A4DC6A34 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				22D7C9C7E1E06A3903474BE8050BCA21 /* KontaktSDK.xcframework */,
+				91E044EFEE8B5B01481165A93AEA003B /* Flutter-xcframeworks.sh */,
+				6E05C963AA604678BDE72D8AED458F05 /* Flutter.debug.xcconfig */,
+				956E99446997C92649D86BF83BB90354 /* Flutter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Flutter";
+			sourceTree = "<group>";
+		};
+		2BE74CB9AB45655C539108F001A0E73A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF31AE8C71708B5511AC0ACEA87F385C /* KontaktSDK.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		412E9286EB9CEE555762DE19B9A6F337 /* Support Files */ = {
+		4AED55E6845A6FBE7A2556F3CA9933AA /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				40A2C107B0767F7EEE80516538B320C1 /* KontaktSDK-xcframeworks.sh */,
-				2BE0E6C497F142B7A75CC4D1390B0C4F /* KontaktSDK.debug.xcconfig */,
-				C6047C4BCBB22A028A9AA3AA4B43B256 /* KontaktSDK.release.xcconfig */,
+				84D10EDC2FD37DD722BE7A6E98EF6469 /* Pods-TestCocoa */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/KontaktSDK";
-			sourceTree = "<group>";
-		};
-		41AA57B9AA290E0F925C153DB903DDCB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				05FC3EB9BCD41F4E0AFA5A6810CEBDF7 /* Pods_TestCocoa.framework */,
-				514FBFBAD0BF251D97948A3630BEDBDD /* Pods-TestCocoa-TestCocoaTests */,
-			);
-			name = Products;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -139,38 +129,38 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		8654AE5D00CAC252832A7199F665839B /* Targets Support Files */ = {
+		7019C188F20BA17C540E31DB519B4F5A /* KontaktSDK */ = {
 			isa = PBXGroup;
 			children = (
-				EEA1920697E9890919AE9F03E8B7E7EE /* Pods-TestCocoa */,
-				A785D9E8617F65DAF343C9F94171EBCF /* Pods-TestCocoa-TestCocoaTests */,
+				2BE74CB9AB45655C539108F001A0E73A /* Frameworks */,
+				D9D2FD7F7FA27C56D584F4E065C95171 /* Support Files */,
 			);
-			name = "Targets Support Files";
+			name = KontaktSDK;
+			path = KontaktSDK;
 			sourceTree = "<group>";
 		};
-		967AE9B3FDF5A686E826708D9666AAC7 /* Pods */ = {
+		7C79ACFE3B11FAB89BDAC0FFE4387A6B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1B68A2824B0296B33B8CDD53186FF4F2 /* KontaktSDK */,
+				BCB28D94889A0C34C98EFD87EFA24A77 /* Flutter.xcframework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A785D9E8617F65DAF343C9F94171EBCF /* Pods-TestCocoa-TestCocoaTests */ = {
+		84D10EDC2FD37DD722BE7A6E98EF6469 /* Pods-TestCocoa */ = {
 			isa = PBXGroup;
 			children = (
-				C497C7BD699BEAED39BA5E976000668E /* Pods-TestCocoa-TestCocoaTests.modulemap */,
-				0030F75F11E5E0C26EE508C53EDF31AF /* Pods-TestCocoa-TestCocoaTests-acknowledgements.markdown */,
-				F1D4E4FF0842C411B1EA8BFE4ACCB0D6 /* Pods-TestCocoa-TestCocoaTests-acknowledgements.plist */,
-				4E8AF5D32DACEEF81CCBD886550DFB9A /* Pods-TestCocoa-TestCocoaTests-dummy.m */,
-				DF563958013E6B6A6913836DE727B65D /* Pods-TestCocoa-TestCocoaTests-frameworks.sh */,
-				8C8F4815B3A3FFBAB7F4A653A043ED7E /* Pods-TestCocoa-TestCocoaTests-Info.plist */,
-				11F293977622D66B7B77EDE9092CE8E8 /* Pods-TestCocoa-TestCocoaTests-umbrella.h */,
-				9D5D5194516E8FDC0B255DC54A9A2992 /* Pods-TestCocoa-TestCocoaTests.debug.xcconfig */,
-				582C9428575E43C0875CF08D748128B4 /* Pods-TestCocoa-TestCocoaTests.release.xcconfig */,
+				C8326CE96D32207A18919099D3748B15 /* Pods-TestCocoa.modulemap */,
+				602CF2F318640DE7B9798BAC274CDC25 /* Pods-TestCocoa-acknowledgements.markdown */,
+				DA3BFCE0EE1BCACC53FC68929E7CB109 /* Pods-TestCocoa-acknowledgements.plist */,
+				37C0924C13D3FDA5998FCF502E3B45B5 /* Pods-TestCocoa-dummy.m */,
+				19B35912DE93247309DF30467E2AB4BC /* Pods-TestCocoa-Info.plist */,
+				F56F6BE095EEE2CAE1489101AA3907A0 /* Pods-TestCocoa-umbrella.h */,
+				EE51EE46573687A8B9B317A87F4AF4C0 /* Pods-TestCocoa.debug.xcconfig */,
+				A1DD0BE0DF85623E7C4BA4D1479E817D /* Pods-TestCocoa.release.xcconfig */,
 			);
-			name = "Pods-TestCocoa-TestCocoaTests";
-			path = "Target Support Files/Pods-TestCocoa-TestCocoaTests";
+			name = "Pods-TestCocoa";
+			path = "Target Support Files/Pods-TestCocoa";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -178,9 +168,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				967AE9B3FDF5A686E826708D9666AAC7 /* Pods */,
-				41AA57B9AA290E0F925C153DB903DDCB /* Products */,
-				8654AE5D00CAC252832A7199F665839B /* Targets Support Files */,
+				E1772A36FDE004443F637DF7128E823C /* Pods */,
+				09BB7214FEE7C79C8B194B37B9D02843 /* Products */,
+				4AED55E6845A6FBE7A2556F3CA9933AA /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -192,80 +182,68 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EEA1920697E9890919AE9F03E8B7E7EE /* Pods-TestCocoa */ = {
+		D9D2FD7F7FA27C56D584F4E065C95171 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				90FEE7F1973330E73BED074C6312D31C /* Pods-TestCocoa.modulemap */,
-				41E4089904CB9A199310AE2FD5491CDB /* Pods-TestCocoa-acknowledgements.markdown */,
-				5E6B213E0C3DA77DACC321D5A90FC0D0 /* Pods-TestCocoa-acknowledgements.plist */,
-				072B950B53FFDBD407D3CA7B2D6E7147 /* Pods-TestCocoa-dummy.m */,
-				B183B9A6ECE016780A050EC7473A445B /* Pods-TestCocoa-Info.plist */,
-				C04B6E374FE37240DE4F710036E4AF68 /* Pods-TestCocoa-umbrella.h */,
-				0DB629F24D27EE298303D7BF42CC60FF /* Pods-TestCocoa.debug.xcconfig */,
-				7E99A4790FBE73707BBC40C870A83CAB /* Pods-TestCocoa.release.xcconfig */,
+				8FB3E3FE4368EC24D18D85D76951905C /* KontaktSDK-xcframeworks.sh */,
+				A759167C8DBA65A5D31701E6F785F2B3 /* KontaktSDK.debug.xcconfig */,
+				0A03C2B7AD6BAA45785226F038CED292 /* KontaktSDK.release.xcconfig */,
 			);
-			name = "Pods-TestCocoa";
-			path = "Target Support Files/Pods-TestCocoa";
+			name = "Support Files";
+			path = "../Target Support Files/KontaktSDK";
+			sourceTree = "<group>";
+		};
+		E1772A36FDE004443F637DF7128E823C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5116817AE3FFB82A6AB7ED0DBC378EB /* Flutter */,
+				7019C188F20BA17C540E31DB519B4F5A /* KontaktSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E5116817AE3FFB82A6AB7ED0DBC378EB /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				7C79ACFE3B11FAB89BDAC0FFE4387A6B /* Frameworks */,
+				158E6B4F1EC6E2D3B07DBAB5A4DC6A34 /* Support Files */,
+			);
+			name = Flutter;
+			path = Flutter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2F99DA2BCC446F6148FCF5F88F8BCB60 /* Headers */ = {
+		FAB845690D5AE5F1A4926E3324A22FFB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C77BAD095871FBDE14FB3B7AD91C4703 /* Pods-TestCocoa-TestCocoaTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3AA137344FCCD621C5F9E048B1F9A57 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0D5140FDFDBD77CFD430F728FFAC721F /* Pods-TestCocoa-umbrella.h in Headers */,
+				7776612F04B4FBB5AC166F6B652A0B96 /* Pods-TestCocoa-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		197D2CA6AD24BD28AC8BBBFFA96B793C /* Pods-TestCocoa-TestCocoaTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 92C281A95EF5BCED9CE9B2C85FE1F0A9 /* Build configuration list for PBXNativeTarget "Pods-TestCocoa-TestCocoaTests" */;
-			buildPhases = (
-				2F99DA2BCC446F6148FCF5F88F8BCB60 /* Headers */,
-				1E28F14C0FE7109995480AD4255B6BBB /* Sources */,
-				8459FF135B43A9F8BF9EC9CE01A5FC1D /* Frameworks */,
-				2351307948B3B7DF63A1F82B9F9ADC24 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EB79A86B9F744D8CECF566BD38925847 /* PBXTargetDependency */,
-			);
-			name = "Pods-TestCocoa-TestCocoaTests";
-			productName = Pods_TestCocoa_TestCocoaTests;
-			productReference = 514FBFBAD0BF251D97948A3630BEDBDD /* Pods-TestCocoa-TestCocoaTests */;
-			productType = "com.apple.product-type.framework";
-		};
 		C615FE9979733CBA9E77AFCAC7F8B310 /* Pods-TestCocoa */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4E4C05DFF84CDB5816351C59EC5E898 /* Build configuration list for PBXNativeTarget "Pods-TestCocoa" */;
+			buildConfigurationList = 54446399CB5CCE796AE7671EC8F53C88 /* Build configuration list for PBXNativeTarget "Pods-TestCocoa" */;
 			buildPhases = (
-				D3AA137344FCCD621C5F9E048B1F9A57 /* Headers */,
-				57BF5917EF756ADBC84DABFF5B33A715 /* Sources */,
-				69F36A742ECB66FB92418D1F76B95FD8 /* Frameworks */,
-				B96DB5FA0EDE3AA3A0CD961BCCD9CCF3 /* Resources */,
+				FAB845690D5AE5F1A4926E3324A22FFB /* Headers */,
+				D8A3C068A1B1A3A4DBBD1E7F1B149373 /* Sources */,
+				774F533C43C56E6817D2F136EE3DC083 /* Frameworks */,
+				BD34068F7D9D71FF1047313B2B27F63E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DE9E318F1BDD354A17FA42884ABE1514 /* PBXTargetDependency */,
+				5304ED8CD441427848AC394262504D6E /* PBXTargetDependency */,
+				C457CF57835D7C5D2CA1D8DAC4E6CF36 /* PBXTargetDependency */,
 			);
 			name = "Pods-TestCocoa";
 			productName = Pods_TestCocoa;
-			productReference = 05FC3EB9BCD41F4E0AFA5A6810CEBDF7 /* Pods_TestCocoa.framework */;
+			productReference = 05FC3EB9BCD41F4E0AFA5A6810CEBDF7 /* Pods-TestCocoa */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -286,26 +264,19 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 41AA57B9AA290E0F925C153DB903DDCB /* Products */;
+			productRefGroup = 09BB7214FEE7C79C8B194B37B9D02843 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */,
 				370FE6B7BD2AAF5FF298EAF84D61B7C4 /* KontaktSDK */,
 				C615FE9979733CBA9E77AFCAC7F8B310 /* Pods-TestCocoa */,
-				197D2CA6AD24BD28AC8BBBFFA96B793C /* Pods-TestCocoa-TestCocoaTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2351307948B3B7DF63A1F82B9F9ADC24 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B96DB5FA0EDE3AA3A0CD961BCCD9CCF3 /* Resources */ = {
+		BD34068F7D9D71FF1047313B2B27F63E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -315,6 +286,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1942DC242E5E1329454EB610A4490AAB /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Flutter/Flutter-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Flutter/Flutter-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Flutter/Flutter-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B78DBDFAD97299A123E374D25F8C2F04 /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -335,78 +323,32 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1E28F14C0FE7109995480AD4255B6BBB /* Sources */ = {
+		D8A3C068A1B1A3A4DBBD1E7F1B149373 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE9758D99AD02D30490B7579061FC505 /* Pods-TestCocoa-TestCocoaTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		57BF5917EF756ADBC84DABFF5B33A715 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A95678E25CCB7FEF310E16FC150B2DEB /* Pods-TestCocoa-dummy.m in Sources */,
+				4A867696B5B9D1ED8B47E1F4C95B8134 /* Pods-TestCocoa-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DE9E318F1BDD354A17FA42884ABE1514 /* PBXTargetDependency */ = {
+		5304ED8CD441427848AC394262504D6E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = KontaktSDK;
-			target = 370FE6B7BD2AAF5FF298EAF84D61B7C4 /* KontaktSDK */;
-			targetProxy = 777D6CAEB43DF2565362DCD55AD856C9 /* PBXContainerItemProxy */;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = E0CC5FDC903BA275F1E704EC2A4CD794 /* PBXContainerItemProxy */;
 		};
-		EB79A86B9F744D8CECF566BD38925847 /* PBXTargetDependency */ = {
+		C457CF57835D7C5D2CA1D8DAC4E6CF36 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KontaktSDK;
 			target = 370FE6B7BD2AAF5FF298EAF84D61B7C4 /* KontaktSDK */;
-			targetProxy = AFAA73802440E5F8BE5CC4AA6CE42D5E /* PBXContainerItemProxy */;
+			targetProxy = 39D20AD86C312E94246AAAA48B20AC18 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0273CED87D683B759362DB00523098BF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E99A4790FBE73707BBC40C870A83CAB /* Pods-TestCocoa.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TestCocoa/Pods-TestCocoa-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TestCocoa/Pods-TestCocoa.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		09909ECBA13E8F70A928465E7F7A9A92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -475,7 +417,24 @@
 		};
 		152B2F51FE92F0DBD0A9ECD2440DD230 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6047C4BCBB22A028A9AA3AA4B43B256 /* KontaktSDK.release.xcconfig */;
+			baseConfigurationReference = 0A03C2B7AD6BAA45785226F038CED292 /* KontaktSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A7317B5454F861BCA85B5462562709C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 956E99446997C92649D86BF83BB90354 /* Flutter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -552,9 +511,9 @@
 			};
 			name = Release;
 		};
-		AED9172B643068BA7FD5A75530B705C7 /* Release */ = {
+		30D43C6AB2C4FA84E84AE85DA04FCBC9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 582C9428575E43C0875CF08D748128B4 /* Pods-TestCocoa-TestCocoaTests.release.xcconfig */;
+			baseConfigurationReference = A1DD0BE0DF85623E7C4BA4D1479E817D /* Pods-TestCocoa.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -566,101 +525,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TestCocoa-TestCocoaTests/Pods-TestCocoa-TestCocoaTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TestCocoa-TestCocoaTests/Pods-TestCocoa-TestCocoaTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B0115B2E409E670538EC8C1DF4D259AE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D5D5194516E8FDC0B255DC54A9A2992 /* Pods-TestCocoa-TestCocoaTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TestCocoa-TestCocoaTests/Pods-TestCocoa-TestCocoaTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TestCocoa-TestCocoaTests/Pods-TestCocoa-TestCocoaTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E9338D744C7D11F74C4144C389A99D70 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BE0E6C497F142B7A75CC4D1390B0C4F /* KontaktSDK.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		FE928179866AF7A9F3E9FBB82ADEA0CF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DB629F24D27EE298303D7BF42CC60FF /* Pods-TestCocoa.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"${PODS_ROOT}/KontaktSDK/Cocoapods/KontaktSDK/iOS\"",
-					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/KontaktSDK\"",
-				);
 				INFOPLIST_FILE = "Target Support Files/Pods-TestCocoa/Pods-TestCocoa-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
@@ -678,10 +542,79 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ABE0512A6EB62782168CF847095E7672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE51EE46573687A8B9B317A87F4AF4C0 /* Pods-TestCocoa.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestCocoa/Pods-TestCocoa-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestCocoa/Pods-TestCocoa.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9338D744C7D11F74C4144C389A99D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A759167C8DBA65A5D31701E6F785F2B3 /* KontaktSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9A8F90AC4F820E13D090CCDBD703E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E05C963AA604678BDE72D8AED458F05 /* Flutter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -697,11 +630,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92C281A95EF5BCED9CE9B2C85FE1F0A9 /* Build configuration list for PBXNativeTarget "Pods-TestCocoa-TestCocoaTests" */ = {
+		54446399CB5CCE796AE7671EC8F53C88 /* Build configuration list for PBXNativeTarget "Pods-TestCocoa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B0115B2E409E670538EC8C1DF4D259AE /* Debug */,
-				AED9172B643068BA7FD5A75530B705C7 /* Release */,
+				ABE0512A6EB62782168CF847095E7672 /* Debug */,
+				30D43C6AB2C4FA84E84AE85DA04FCBC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6164B05B5EAB7A16188BE69BCC9EBC7E /* Build configuration list for PBXAggregateTarget "Flutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9A8F90AC4F820E13D090CCDBD703E6B /* Debug */,
+				1A7317B5454F861BCA85B5462562709C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -711,15 +653,6 @@
 			buildConfigurations = (
 				E9338D744C7D11F74C4144C389A99D70 /* Debug */,
 				152B2F51FE92F0DBD0A9ECD2440DD230 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F4E4C05DFF84CDB5816351C59EC5E898 /* Build configuration list for PBXNativeTarget "Pods-TestCocoa" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FE928179866AF7A9F3E9FBB82ADEA0CF /* Debug */,
-				0273CED87D683B759362DB00523098BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

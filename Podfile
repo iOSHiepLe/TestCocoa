@@ -3,15 +3,10 @@
 
 target 'TestCocoa' do
   # Comment the next line if you don't want to use dynamic frameworks
-#  use_frameworks!
-  use_modular_headers!
+  use_frameworks!
   
   # Pods for TestCocoa
     pod 'KontaktSDK', '~> 3.0.4'
-    pod 'Flutter', :podspec => '../Flutter/Debug/Flutter.podspec'
-    
-  target 'TestCocoaTests' do
-    # Pods for testing
-  end
+    pod 'Flutter', :podspec => '../TestCocoa/TestCocoa/Flutter/Debug/Flutter.podspec'
 
 end

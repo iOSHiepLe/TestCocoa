@@ -17,10 +17,9 @@ class TixngoSdk {
         }
     }
 
-    init(registerPlugin: @escaping ((FlutterEngine) -> Void)) {
+    init() {
         channel = FlutterMethodChannel(name: "io.tixngo.sdk", binaryMessenger: flutterEngine.binaryMessenger)
         flutterEngine.run()
-        registerPlugin(flutterEngine)
 //        GeneratedPluginRegistrant.register(with: flutterEngine)
         _rootViewController = FlutterViewController(engine: flutterEngine, nibName: nil, bundle: nil)
     }

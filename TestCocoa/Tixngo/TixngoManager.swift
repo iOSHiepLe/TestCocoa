@@ -28,9 +28,9 @@ public class TixngoManager {
     private let onInitialized = "sdk.initialized"
     private let onDebug = "sdk.debug"
     
-//    private init() {
-//        sdk = TixngoSdk.init()
-//    }
+    private init() {
+        sdk = TixngoSdk.init()
+    }
     
     /*
      Call this method to initialize SDK, and received isAuthenticated status in onInitializedHandler
@@ -41,14 +41,12 @@ public class TixngoManager {
      + onCloseHandler: SDK notify app that user tap close button, app should close SDK UI and return to app UI
     */
     public final func initialize(
-        onRegisterPlugin: @escaping ((FlutterEngine) -> Void),
         onInitializedHandler: @escaping ((_ isAuthenticated: Bool) -> Void),
         onTokenExpiredHandler: @escaping ((@escaping (_ shouldRetry: Bool) -> Void) -> Void),
         onGetJwtTokenHandler: @escaping ((@escaping (_ jwtToken: String?) -> Void) -> Void),
         onGetDeviceTokenHandler: @escaping ((@escaping (_ deviceToken: String?) -> Void) -> Void),
         onCloseHandler: @escaping () -> Void
     ) {
-        sdk = TixngoSdk.init(registerPlugin: onRegisterPlugin)
         sdk.initialize { (call, result) in
             let method = call.method
             let args = call.arguments
