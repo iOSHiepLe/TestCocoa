@@ -50,10 +50,14 @@ Pod::Spec.new do |spec|
   #  When using multiple platforms
     spec.ios.deployment_target = "10.0"
     spec.source       = { :git => "https://github.com/iOSHiepLe/TestCocoa.git", :tag => "#{spec.version}" }
-
     spec.source_files  = "TestCocoa/**/*.{swift}", "TestCocoa/**/*.{m}"
     spec.public_header_files = "TestCocoa/**/*.h"
     spec.dependency 'KontaktSDK', '~> 3.0.4'
     spec.dependency 'Flutter'
-    spec.dependency 'FlutterPluginRegistrant'
+    spec.subspec 'FlutterPluginRegistrant' do |s|
+        s.source   = { :http => "https://github.com/iOSHiepLe/TestCocoa/blob/master/TestCocoa/Flutter/Debug/FlutterPluginRegistrant.xcframework.zip?raw=true" }
+        s.header_dir = "FlutterPluginRegistrant"
+        s.vendored_frameworks   = 'FlutterPluginRegistrant.xcframework'
+    end
+    
 end
