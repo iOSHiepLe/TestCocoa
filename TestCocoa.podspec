@@ -51,7 +51,7 @@ Pod::Spec.new do |spec|
     spec.ios.deployment_target = "10.0"
     spec.source       = { :git => "https://github.com/iOSHiepLe/TestCocoa.git", :tag => "#{spec.version}" }
 
-    spec.source_files  = "TestCocoa/**/*.{swift,xcframework}", "TestCocoa/**/*.{h,m}"
+    spec.source_files  = "TestCocoa/**/*.{swift}", "TestCocoa/**/*.{m}"
     spec.public_header_files = "TestCocoa/**/*.h"
     spec.dependency 'KontaktSDK', '~> 3.0.4'
     spec.dependency 'Flutter'

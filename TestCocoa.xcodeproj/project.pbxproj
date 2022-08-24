@@ -11,6 +11,7 @@
 		19168C4CF4A5628867DACE7C /* Pods_TestCocoa_TestCocoaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8EDD7C42C28C224CB33145 /* Pods_TestCocoa_TestCocoaTests.framework */; };
 		3857D3A728B4C8C600E91BDC /* Tixngo in Resources */ = {isa = PBXBuildFile; fileRef = 3857D3A528B4C8C600E91BDC /* Tixngo */; };
 		3857D3F228B4D69C00E91BDC /* Flutter in Resources */ = {isa = PBXBuildFile; fileRef = 3857D3F128B4D69C00E91BDC /* Flutter */; };
+		3857D3FD28B5D76F00E91BDC /* TestCocoa-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 3857D3FC28B5D76F00E91BDC /* TestCocoa-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3898F3A028B4677500DFDD23 /* TestCocoa.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3898F39F28B4677500DFDD23 /* TestCocoa.docc */; };
 		3898F3A628B4677600DFDD23 /* TestCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F39B28B4677500DFDD23 /* TestCocoa.framework */; };
 		3898F3AB28B4677600DFDD23 /* TestCocoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3898F3AA28B4677600DFDD23 /* TestCocoaTests.swift */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		3857D3A528B4C8C600E91BDC /* Tixngo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tixngo; sourceTree = "<group>"; };
 		3857D3F128B4D69C00E91BDC /* Flutter */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Flutter; sourceTree = "<group>"; };
+		3857D3FC28B5D76F00E91BDC /* TestCocoa-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestCocoa-Bridging-Header.h"; sourceTree = "<group>"; };
 		3898F39B28B4677500DFDD23 /* TestCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3898F39E28B4677500DFDD23 /* TestCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCocoa.h; sourceTree = "<group>"; };
 		3898F39F28B4677500DFDD23 /* TestCocoa.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TestCocoa.docc; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				3857D3A528B4C8C600E91BDC /* Tixngo */,
 				3898F39E28B4677500DFDD23 /* TestCocoa.h */,
 				3898F39F28B4677500DFDD23 /* TestCocoa.docc */,
+				3857D3FC28B5D76F00E91BDC /* TestCocoa-Bridging-Header.h */,
 			);
 			path = TestCocoa;
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3898F3AC28B4677600DFDD23 /* TestCocoa.h in Headers */,
+				3857D3FD28B5D76F00E91BDC /* TestCocoa-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +462,7 @@
 					"$(inherited)",
 					"\"${PODS_ROOT}/KontaktSDK/Cocoapods/KontaktSDK/iOS\"",
 					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/KontaktSDK\"",
+					"\"$(SRCROOT)/TestCocoa/Flutter/Debug\"",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -492,7 +497,7 @@
 					"$(inherited)",
 					"\"${PODS_ROOT}/KontaktSDK/Cocoapods/KontaktSDK/iOS\"",
 					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/KontaktSDK\"",
-					"\"${PODS_ROOT}/TestCocoa/Debug\"",
+					"\"$(SRCROOT)/TestCocoa/Flutter/Debug\"",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
