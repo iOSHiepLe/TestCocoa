@@ -12,7 +12,6 @@
 		3857D3A728B4C8C600E91BDC /* Tixngo in Resources */ = {isa = PBXBuildFile; fileRef = 3857D3A528B4C8C600E91BDC /* Tixngo */; };
 		3857D3F228B4D69C00E91BDC /* Flutter in Resources */ = {isa = PBXBuildFile; fileRef = 3857D3F128B4D69C00E91BDC /* Flutter */; };
 		3857D3FD28B5D76F00E91BDC /* TestCocoa-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 3857D3FC28B5D76F00E91BDC /* TestCocoa-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3857D40328B6186D00E91BDC /* FlutterPluginRegistrant.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3857D40228B6186D00E91BDC /* FlutterPluginRegistrant.xcframework */; };
 		3898F3A028B4677500DFDD23 /* TestCocoa.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3898F39F28B4677500DFDD23 /* TestCocoa.docc */; };
 		3898F3A628B4677600DFDD23 /* TestCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F39B28B4677500DFDD23 /* TestCocoa.framework */; };
 		3898F3AB28B4677600DFDD23 /* TestCocoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3898F3AA28B4677600DFDD23 /* TestCocoaTests.swift */; };
@@ -33,7 +32,6 @@
 		3857D3A528B4C8C600E91BDC /* Tixngo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tixngo; sourceTree = "<group>"; };
 		3857D3F128B4D69C00E91BDC /* Flutter */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Flutter; sourceTree = "<group>"; };
 		3857D3FC28B5D76F00E91BDC /* TestCocoa-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestCocoa-Bridging-Header.h"; sourceTree = "<group>"; };
-		3857D40228B6186D00E91BDC /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FlutterPluginRegistrant.xcframework; path = TestCocoa/Flutter/Debug/FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
 		3898F39B28B4677500DFDD23 /* TestCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3898F39E28B4677500DFDD23 /* TestCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCocoa.h; sourceTree = "<group>"; };
 		3898F39F28B4677500DFDD23 /* TestCocoa.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TestCocoa.docc; sourceTree = "<group>"; };
@@ -52,7 +50,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3857D40328B6186D00E91BDC /* FlutterPluginRegistrant.xcframework in Frameworks */,
 				0D427FC6B88F91A03685F1EA /* Pods_TestCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -113,7 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				DA2E47AC58143499E1871B8E /* Pods_TestCocoa.framework */,
-				3857D40228B6186D00E91BDC /* FlutterPluginRegistrant.xcframework */,
 				FA8EDD7C42C28C224CB33145 /* Pods_TestCocoa_TestCocoaTests.framework */,
 			);
 			name = Frameworks;

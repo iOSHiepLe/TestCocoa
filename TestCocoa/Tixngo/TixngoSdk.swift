@@ -1,6 +1,7 @@
 import Flutter
 import UIKit
-import FlutterPluginRegistrant
+//import FlutterPluginRegistrant
+
 
 class TixngoSdk {
 
@@ -16,10 +17,11 @@ class TixngoSdk {
         }
     }
 
-    init() {
+    init(registerPlugin: @escaping ((FlutterEngine) -> Void)) {
         channel = FlutterMethodChannel(name: "io.tixngo.sdk", binaryMessenger: flutterEngine.binaryMessenger)
-        flutterEngine.run();
-        GeneratedPluginRegistrant.register(with: flutterEngine)
+        flutterEngine.run()
+        registerPlugin(flutterEngine)
+//        GeneratedPluginRegistrant.register(with: flutterEngine)
         _rootViewController = FlutterViewController(engine: flutterEngine, nibName: nil, bundle: nil)
     }
 

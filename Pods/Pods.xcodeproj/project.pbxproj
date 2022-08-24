@@ -22,7 +22,6 @@
 
 /* Begin PBXBuildFile section */
 		0D5140FDFDBD77CFD430F728FFAC721F /* Pods-TestCocoa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C04B6E374FE37240DE4F710036E4AF68 /* Pods-TestCocoa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3857D40728B618B500E91BDC /* FlutterPluginRegistrant.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3857D40628B618B500E91BDC /* FlutterPluginRegistrant.xcframework */; };
 		3DA54199AC76911F2164D85D256437C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4748AA3AF005BCA24F7335C99C10F616 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A95678E25CCB7FEF310E16FC150B2DEB /* Pods-TestCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 072B950B53FFDBD407D3CA7B2D6E7147 /* Pods-TestCocoa-dummy.m */; };
@@ -55,7 +54,6 @@
 		11F293977622D66B7B77EDE9092CE8E8 /* Pods-TestCocoa-TestCocoaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestCocoa-TestCocoaTests-umbrella.h"; sourceTree = "<group>"; };
 		22D7C9C7E1E06A3903474BE8050BCA21 /* KontaktSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = KontaktSDK.xcframework; path = Cocoapods/KontaktSDK/iOS/KontaktSDK.xcframework; sourceTree = "<group>"; };
 		2BE0E6C497F142B7A75CC4D1390B0C4F /* KontaktSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KontaktSDK.debug.xcconfig; sourceTree = "<group>"; };
-		3857D40628B618B500E91BDC /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FlutterPluginRegistrant.xcframework; path = ../TestCocoa/Flutter/Debug/FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
 		40A2C107B0767F7EEE80516538B320C1 /* KontaktSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "KontaktSDK-xcframeworks.sh"; sourceTree = "<group>"; };
 		41E4089904CB9A199310AE2FD5491CDB /* Pods-TestCocoa-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestCocoa-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4E8AF5D32DACEEF81CCBD886550DFB9A /* Pods-TestCocoa-TestCocoaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestCocoa-TestCocoaTests-dummy.m"; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3857D40728B618B500E91BDC /* FlutterPluginRegistrant.xcframework in Frameworks */,
 				4748AA3AF005BCA24F7335C99C10F616 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,7 +188,6 @@
 			isa = PBXGroup;
 			children = (
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
-				3857D40628B618B500E91BDC /* FlutterPluginRegistrant.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
