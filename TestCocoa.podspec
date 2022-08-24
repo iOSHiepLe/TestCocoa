@@ -55,6 +55,6 @@ Pod::Spec.new do |spec|
   spec.public_header_files = "TestCocoa/**/*.h"
     spec.dependency 'KontaktSDK', '~> 3.0.4'
     spec.dependency 'Flutter'
-    spec.dependency 'FlutterPluginRegistrant', :path => 'TestCocoa/Flutter/Debug/FlutterPluginRegistrant.xcframework'
+    spec.dependency 'FlutterPluginRegistrant', :http => 'file:/TestCocoa/Flutter/Debug/FlutterPluginRegistrant.xcframework'
 
 end
