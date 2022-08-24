@@ -85,7 +85,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "TestCocoa/**/*.{swift}"
+  spec.source_files  = "TestCocoa/**/*.{swift}", "TestCocoa/**/FlutterPluginRegistrant.xcframework"
   spec.public_header_files = "TestCocoa/**/*.h"
 
 
@@ -112,8 +112,7 @@ Pod::Spec.new do |spec|
   # spec.framework  = "FlutterPluginRegistrant"
   # spec.frameworks = "Flutter", "FlutterPluginRegistrant"
   spec.dependency 'KontaktSDK', '~> 3.0.4'
-spec.dependency 'Flutter'
-spec.dependency 'FlutterPluginRegistrant'
+    spec.dependency 'Flutter'
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
