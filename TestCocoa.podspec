@@ -101,6 +101,7 @@ Pod::Spec.new do |spec|
   #   spec.source_files = 'Tixngo/*.{swift}'
   # #end
   
+  spec.dependency 'TestCocoa/FlutterPluginRegistrant'
   spec.public_header_files = "TestCocoa/**/*.h"
     spec.dependency 'KontaktSDK', '~> 3.0.4'
     spec.dependency 'Flutter'
