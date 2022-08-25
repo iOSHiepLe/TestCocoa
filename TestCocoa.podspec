@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'Flutter'
   spec.default_subspec = 'Default'
     
-    s.subspec 'Default' do |s|
+    spec.subspec 'Default' do |s|
         s.dependency 'TestCocoa/FlutterPluginRegistrant'
     end
   
