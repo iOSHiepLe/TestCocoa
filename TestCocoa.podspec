@@ -24,3 +24,19 @@ Pod::Spec.new do |spec|
   
   #spec.frameworks = "app_settings", "App", "beacon", "contacts_service", "core", "DTTJailbreakDetection", "FlutterPluginRegistrant", "FMDB", "KeychainSwift", #"libPhoneNumber_iOS", "libphonenumber", "path_provider_ios","safe_device", "screenshot_protection", "shared_preferences_ios", "sqflite", #"url_launcher_ios", "video_player_avfoundation", "wakelock", "wallet_suppression", "webview_flutter_wkwebview"
 end
+
+Pod::Spec.new do |spec|
+  spec.name         = "FlutterPluginRegistrant"
+  spec.version      = "0.0.1"
+  spec.summary      = "Test for dynamic framework"
+  spec.description  = "improve for pull other framework"
+  spec.homepage     = "http://EXAMPLE/TestCocoa"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  spec.author             = { "HiepLe" => "hieplemobile@gmail.com" }
+  spec.ios.deployment_target = "10.0"
+  spec.source = { :http => "https://raw.githubusercontent.com/iOSHiepLe/specs/master/sdk.zip" }
+  spec.ios.vendored_frameworks = 'FlutterPluginRegistrant.xcframework'
+  
+  #spec.frameworks = "app_settings", "App", "beacon", "contacts_service", "core", "DTTJailbreakDetection", "FlutterPluginRegistrant", "FMDB", "KeychainSwift", #"libPhoneNumber_iOS", "libphonenumber", "path_provider_ios","safe_device", "screenshot_protection", "shared_preferences_ios", "sqflite", #"url_launcher_ios", "video_player_avfoundation", "wakelock", "wallet_suppression", "webview_flutter_wkwebview"
+end
+
