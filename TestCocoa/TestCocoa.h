@@ -14,5 +14,3 @@ FOUNDATION_EXPORT double TestCocoaVersionNumber;
 FOUNDATION_EXPORT const unsigned char TestCocoaVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <TestCocoa/PublicHeader.h>
-#import <TestCocoa/GeneratedPluginRegistrant.h>
-#import <TestCocoa/FlutterPluginRegistrant.h>
