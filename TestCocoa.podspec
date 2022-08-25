@@ -65,30 +65,35 @@ Pod::Spec.new do |spec|
     s.ios.vendored_frameworks = 'safe_device.xcframework'
   end
   
-    spec.subspec 'screenshot_protection' do |s|
+  spec.subspec 'screenshot_protection' do |s|
     s.ios.vendored_frameworks = 'screenshot_protection.xcframework'
   end
   
-    spec.subspec 'shared_preferences_ios' do |s|
+  spec.subspec 'shared_preferences_ios' do |s|
     s.ios.vendored_frameworks = 'shared_preferences_ios.xcframework'
   end
   
-    spec.subspec 'sqflite' do |s|
+  spec.subspec 'sqflite' do |s|
     s.ios.vendored_frameworks = 'sqflite.xcframework'
   end
-    spec.subspec 'url_launcher_ios' do |s|
+  
+  spec.subspec 'url_launcher_ios' do |s|
     s.ios.vendored_frameworks = 'url_launcher_ios.xcframework'
   end
-    spec.subspec 'video_player_avfoundation' do |s|
+  
+  spec.subspec 'video_player_avfoundation' do |s|
     s.ios.vendored_frameworks = 'video_player_avfoundation.xcframework'
   end
-    spec.subspec 'wakelock' do |s|
+  
+  spec.subspec 'wakelock' do |s|
     s.ios.vendored_frameworks = 'wakelock.xcframework'
   end
-    spec.subspec 'wallet_suppression' do |s|
+  
+  spec.subspec 'wallet_suppression' do |s|
     s.ios.vendored_frameworks = 'wallet_suppression.xcframework'
   end
-    spec.subspec 'webview_flutter_wkwebview' do |s|
+  
+  spec.subspec 'webview_flutter_wkwebview' do |s|
     s.ios.vendored_frameworks = 'webview_flutter_wkwebview.xcframework'
   end
   

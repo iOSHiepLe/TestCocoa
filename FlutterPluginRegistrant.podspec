@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name                  = 'FlutterPluginRegistrant'
+  s.name                  = 'TestSDK'
   s.version               = '0.0.1'
   s.summary               = 'A UI toolkit for beautiful and fast apps.'
   s.description           = <<-DESC
@@ -41,5 +41,5 @@ LICENSE
   s.source                = { :http => 'https://raw.githubusercontent.com/iOSHiepLe/specs/master/sdk.zip' }
   s.documentation_url     = 'https://flutter.dev/docs'
   s.platform              = :ios, '9.0'
-  s.vendored_frameworks   = 'FlutterPluginRegistrant.xcframework'
+  s.vendored_frameworks   = 'FlutterPluginRegistrant.xcframework', 'App.xcframework', 'beacon.xcframework', 'contacts_service.xcframework', 'app_settings.xcframework'
 end
