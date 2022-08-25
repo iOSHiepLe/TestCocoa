@@ -52,7 +52,7 @@ Pod::Spec.new do |spec|
     spec.source       = { :git => "https://github.com/iOSHiepLe/TestCocoa.git", :tag => "#{spec.version}" }
     spec.source_files  = "TestCocoa/**/*.{swift}", "TestCocoa/**/*.{m}"
     spec.public_header_files = "TestCocoa/**/*.h"
-    #spec.framework = "FlutterPluginRegistrant"
+    spec.framework = "FlutterPluginRegistrant"
     spec.dependency 'KontaktSDK', '~> 3.0.4'
     spec.dependency 'Flutter'
 end
