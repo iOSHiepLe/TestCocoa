@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   end
     spec.dependency 'KontaktSDK', '~> 3.0.4'
     spec.dependency 'Flutter'
-    spec.dependency 'TestCocoa/FlutterPluginRegistrant'
+    spec.dependency 'FlutterPluginRegistrant'
   
   #spec.frameworks = "app_settings", "App", "beacon", "contacts_service", "core", "DTTJailbreakDetection", "FlutterPluginRegistrant", "FMDB", "KeychainSwift", #"libPhoneNumber_iOS", "libphonenumber", "path_provider_ios","safe_device", "screenshot_protection", "shared_preferences_ios", "sqflite", #"url_launcher_ios", "video_player_avfoundation", "wakelock", "wallet_suppression", "webview_flutter_wkwebview"
 end
