@@ -17,6 +17,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "10.0"
   
   spec.source = { :http => "https://raw.githubusercontent.com/iOSHiepLe/specs/master/sdk.zip" }
+
   spec.subspec 'app_settings' do |s|
     s.vendored_frameworks = 'app_settings.xcframework'
   end
@@ -100,8 +101,12 @@ Pod::Spec.new do |spec|
   # #spec.subspec 'Files' do |s|
   #   spec.source_files = 'Tixngo/*.{swift}'
   # #end
+
+  spec.subspec 'Tixngo' do |s| 
+    s.source_files = 'Tixngo/*.{swift}'
+    s.dependency 'TestCocoa/FlutterPluginRegistrant'
+  end
   
-  spec.dependency 'TestCocoa/app_settings'
   spec.public_header_files = "TestCocoa/**/*.h"
     spec.dependency 'KontaktSDK', '~> 3.0.4'
     spec.dependency 'Flutter'
