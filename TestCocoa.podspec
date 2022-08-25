@@ -18,9 +18,9 @@ Pod::Spec.new do |spec|
   
   spec.source = { :http => "https://raw.githubusercontent.com/iOSHiepLe/specs/master/sdk.zip" }
 
-  spec.subspec 'app_settings' do |s|
-    s.vendored_frameworks = 'app_settings.xcframework'
-  end
+  # spec.subspec 'app_settings' do |s|
+  #   s.vendored_frameworks = 'app_settings.xcframework'
+  # end
   
   # spec.subspec 'App' do |s|
   #   s.vendored_frameworks = 'App.xcframework'
@@ -43,7 +43,7 @@ Pod::Spec.new do |spec|
   # end
   
   spec.subspec 'FlutterPluginRegistrant' do |s|
-    s.vendored_frameworks = 'FlutterPluginRegistrant.xcframework'
+    s.ios.vendored_frameworks = 'FlutterPluginRegistrant.xcframework'
   end
   
   # spec.subspec 'FMDB' do |s|
