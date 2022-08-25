@@ -15,28 +15,18 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "HiepLe" => "hieplemobile@gmail.com" }
   spec.ios.deployment_target = "10.0"
-  spec.source       = { :git => "https://github.com/iOSHiepLe/TestCocoa.git",
-                        :tag => "#{spec.version}" }
-  spec.source_files  = "TestCocoa/**/*.{swift}", "TestCocoa/**/*.{m}"
+  
+  spec.source = { :http => "https://raw.githubusercontent.com/iOSHiepLe/specs/master/sdk.zip" }
+  spec.subspec 'FlutterPluginRegistrant' do |s|
+    s.ios.vendored_frameworks = 'FlutterPluginRegistrant.xcframework'
+  end
+  
+  spec.subspec 'File' do |s|
+    s.ios.source_file = 'Tixngo/*.{swift}'
+  end
+  
   spec.public_header_files = "TestCocoa/**/*.h"
     spec.dependency 'KontaktSDK', '~> 3.0.4'
     spec.dependency 'Flutter'
-  
-  #spec.frameworks = "app_settings", "App", "beacon", "contacts_service", "core", "DTTJailbreakDetection", "FlutterPluginRegistrant", "FMDB", "KeychainSwift", #"libPhoneNumber_iOS", "libphonenumber", "path_provider_ios","safe_device", "screenshot_protection", "shared_preferences_ios", "sqflite", #"url_launcher_ios", "video_player_avfoundation", "wakelock", "wallet_suppression", "webview_flutter_wkwebview"
-end
-
-Pod::Spec.new do |spec|
-  spec.name         = "FlutterPluginRegistrant"
-  spec.version      = "0.0.1"
-  spec.summary      = "Test for dynamic framework"
-  spec.description  = "improve for pull other framework"
-  spec.homepage     = "http://EXAMPLE/TestCocoa"
-  spec.license      = { :type => "MIT", :file => "LICENSE" }
-  spec.author             = { "HiepLe" => "hieplemobile@gmail.com" }
-  spec.ios.deployment_target = "10.0"
-  spec.source = { :http => "https://raw.githubusercontent.com/iOSHiepLe/specs/master/sdk.zip" }
-  spec.ios.vendored_frameworks = 'FlutterPluginRegistrant.xcframework'
-  
-  #spec.frameworks = "app_settings", "App", "beacon", "contacts_service", "core", "DTTJailbreakDetection", "FlutterPluginRegistrant", "FMDB", "KeychainSwift", #"libPhoneNumber_iOS", "libphonenumber", "path_provider_ios","safe_device", "screenshot_protection", "shared_preferences_ios", "sqflite", #"url_launcher_ios", "video_player_avfoundation", "wakelock", "wallet_suppression", "webview_flutter_wkwebview"
 end
 
