@@ -20,11 +20,16 @@ Pod::Spec.new do |spec|
   spec.source = { :http => "https://raw.githubusercontent.com/iOSHiepLe/specs/master/sdk.zip" }
   spec.source_files  = "TestCocoa/**/*.{swift}", "TestCocoa/**/*.{m}"
   spec.public_header_files = "TestCocoa/**/*.h"
-  spec.dependency 'KontaktSDK', '~> 3.0.4'
-  spec.dependency 'Flutter'
   spec.subspec 'FlutterPluginRegistrant' do |s|
     s.ios.vendored_frameworks = 'FlutterPluginRegistrant.xcframework'
   end
+    spec.dependency 'KontaktSDK', '~> 3.0.4'
+  spec.dependency 'Flutter'
+  spec.default_subspec = 'Default'
+    
+    s.subspec 'Default' do |s|
+        s.dependency 'TestCocoa/FlutterPluginRegistrant'
+    end
   
   #spec.frameworks = "app_settings", "App", "beacon", "contacts_service", "core", "DTTJailbreakDetection", "FlutterPluginRegistrant", "FMDB", "KeychainSwift", #"libPhoneNumber_iOS", "libphonenumber", "path_provider_ios","safe_device", "screenshot_protection", "shared_preferences_ios", "sqflite", #"url_launcher_ios", "video_player_avfoundation", "wakelock", "wallet_suppression", "webview_flutter_wkwebview"
 end
