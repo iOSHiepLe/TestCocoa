@@ -1,0 +1,23 @@
+PODS:
+  - Flutter (3.0.500)
+  - KontaktSDK (3.0.25)
+
+DEPENDENCIES:
+  - Flutter (from `../TestCocoa/TestCocoa/Flutter/Debug/Flutter.podspec`)
+  - KontaktSDK (~> 3.0.4)
+
+SPEC REPOS:
+  trunk:
+    - KontaktSDK
+
+EXTERNAL SOURCES:
+  Flutter:
+    :podspec: "../TestCocoa/TestCocoa/Flutter/Debug/Flutter.podspec"
+
+SPEC CHECKSUMS:
+  Flutter: b77cbdf5e1869fb88fb2e7bbcf0fb2c22a98e54c
+  KontaktSDK: d1c31542fea1f11fa5ad857b69e19d0888f56436
+
+PODFILE CHECKSUM: 902ff818d37479a040ff9b173e2e49d62b070682
+
+COCOAPODS: 1.11.3
