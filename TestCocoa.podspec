@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
   end
   
   spec.subspec 'File' do |s|
-    s.ios.source_file = 'Tixngo/*.{swift}'
+    spec.source_files = 'Tixngo/*.{swift}'
   end
   
   spec.public_header_files = "TestCocoa/**/*.h"
