@@ -23,10 +23,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'Flutter'
 
     spec.subspec 'FlutterPluginRegistrant' do |s|
-      s.version = '0.0.1'
-      s.source = { :git => "https://github.com/iOSHiepLe/TestCocoa.git",
-                    :tag => "#{spec.version}" }
       s.source_files = "FlutterPluginRegistrant.xcframework"
     end
-  spec.dependency 'FlutterPluginRegistrant', '0.0.1'
+  spec.dependency 'FlutterPluginRegistrant'
 end
