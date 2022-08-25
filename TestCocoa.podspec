@@ -17,89 +17,89 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "10.0"
   
   spec.source = { :http => "https://raw.githubusercontent.com/iOSHiepLe/specs/master/sdk.zip" }
-  spec.subspec 'app_settings' do |s|
-    s.vendored_frameworks = 'app_settings.xcframework'
-  end
+  # spec.subspec 'app_settings' do |s|
+  #   s.vendored_frameworks = 'app_settings.xcframework'
+  # end
   
-  spec.subspec 'App' do |s|
-    s.vendored_frameworks = 'App.xcframework'
-  end
+  # spec.subspec 'App' do |s|
+  #   s.vendored_frameworks = 'App.xcframework'
+  # end
   
-  spec.subspec 'beacon' do |s|
-    s.vendored_frameworks = 'beacon.xcframework'
-  end
+  # spec.subspec 'beacon' do |s|
+  #   s.vendored_frameworks = 'beacon.xcframework'
+  # end
   
-  spec.subspec 'contacts_service' do |s|
-    s.vendored_frameworks = 'contacts_service.xcframework'
-  end
+  # spec.subspec 'contacts_service' do |s|
+  #   s.vendored_frameworks = 'contacts_service.xcframework'
+  # end
   
-  spec.subspec 'core' do |s|
-    s.vendored_frameworks = 'core.xcframework'
-  end
+  # spec.subspec 'core' do |s|
+  #   s.vendored_frameworks = 'core.xcframework'
+  # end
   
-  spec.subspec 'DTTJailbreakDetection' do |s|
-    s.vendored_frameworks = 'DTTJailbreakDetection.xcframework'
-  end
+  # spec.subspec 'DTTJailbreakDetection' do |s|
+  #   s.vendored_frameworks = 'DTTJailbreakDetection.xcframework'
+  # end
   
   spec.subspec 'FlutterPluginRegistrant' do |s|
     s.vendored_frameworks = 'FlutterPluginRegistrant.xcframework'
   end
   
-  spec.subspec 'FMDB' do |s|
-    s.vendored_frameworks = 'FMDB.xcframework'
-  end
+  # spec.subspec 'FMDB' do |s|
+  #   s.vendored_frameworks = 'FMDB.xcframework'
+  # end
   
-  spec.subspec 'KeychainSwift' do |s|
-    s.vendored_frameworks = 'KeychainSwift.xcframework'
-  end
+  # spec.subspec 'KeychainSwift' do |s|
+  #   s.vendored_frameworks = 'KeychainSwift.xcframework'
+  # end
   
-  spec.subspec 'libPhoneNumber_iOS' do |s|
-    s.vendored_frameworks = 'libPhoneNumber_iOS.xcframework'
-  end
+  # spec.subspec 'libPhoneNumber_iOS' do |s|
+  #   s.vendored_frameworks = 'libPhoneNumber_iOS.xcframework'
+  # end
   
-  spec.subspec 'path_provider_ios' do |s|
-    s.vendored_frameworks = 'path_provider_ios.xcframework'
-  end
+  # spec.subspec 'path_provider_ios' do |s|
+  #   s.vendored_frameworks = 'path_provider_ios.xcframework'
+  # end
   
-  spec.subspec 'safe_device' do |s|
-    s.vendored_frameworks = 'safe_device.xcframework'
-  end
+  # spec.subspec 'safe_device' do |s|
+  #   s.vendored_frameworks = 'safe_device.xcframework'
+  # end
   
-  spec.subspec 'screenshot_protection' do |s|
-    s.vendored_frameworks = 'screenshot_protection.xcframework'
-  end
+  # spec.subspec 'screenshot_protection' do |s|
+  #   s.vendored_frameworks = 'screenshot_protection.xcframework'
+  # end
   
-  spec.subspec 'shared_preferences_ios' do |s|
-    s.vendored_frameworks = 'shared_preferences_ios.xcframework'
-  end
+  # spec.subspec 'shared_preferences_ios' do |s|
+  #   s.vendored_frameworks = 'shared_preferences_ios.xcframework'
+  # end
   
-  spec.subspec 'sqflite' do |s|
-    s.vendored_frameworks = 'sqflite.xcframework'
-  end
+  # spec.subspec 'sqflite' do |s|
+  #   s.vendored_frameworks = 'sqflite.xcframework'
+  # end
   
-  spec.subspec 'url_launcher_ios' do |s|
-    s.vendored_frameworks = 'url_launcher_ios.xcframework'
-  end
+  # spec.subspec 'url_launcher_ios' do |s|
+  #   s.vendored_frameworks = 'url_launcher_ios.xcframework'
+  # end
   
-  spec.subspec 'video_player_avfoundation' do |s|
-    s.vendored_frameworks = 'video_player_avfoundation.xcframework'
-  end
+  # spec.subspec 'video_player_avfoundation' do |s|
+  #   s.vendored_frameworks = 'video_player_avfoundation.xcframework'
+  # end
   
-  spec.subspec 'wakelock' do |s|
-    s.vendored_frameworks = 'wakelock.xcframework'
-  end
+  # spec.subspec 'wakelock' do |s|
+  #   s.vendored_frameworks = 'wakelock.xcframework'
+  # end
   
-  spec.subspec 'wallet_suppression' do |s|
-    s.vendored_frameworks = 'wallet_suppression.xcframework'
-  end
+  # spec.subspec 'wallet_suppression' do |s|
+  #   s.vendored_frameworks = 'wallet_suppression.xcframework'
+  # end
   
-  spec.subspec 'webview_flutter_wkwebview' do |s|
-    s.vendored_frameworks = 'webview_flutter_wkwebview.xcframework'
-  end
+  # spec.subspec 'webview_flutter_wkwebview' do |s|
+  #   s.vendored_frameworks = 'webview_flutter_wkwebview.xcframework'
+  # end
   
-  #spec.subspec 'Files' do |s|
-    spec.source_files = 'Tixngo/*.{swift}'
-  #end
+  # #spec.subspec 'Files' do |s|
+  #   spec.source_files = 'Tixngo/*.{swift}'
+  # #end
   
   spec.public_header_files = "TestCocoa/**/*.h"
     spec.dependency 'KontaktSDK', '~> 3.0.4'
