@@ -27,23 +27,40 @@
 			);
 			name = KontaktSDK;
 		};
+		83DAA8F43D74F8D51203DE23C7C3A3F5 /* FlutterPluginRegistrant */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FBA99E5839836EE22D9A5CF15F13ED35 /* Build configuration list for PBXAggregateTarget "FlutterPluginRegistrant" */;
+			buildPhases = (
+				F1A083A60B5C1D69AC44493CC093A0DB /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = FlutterPluginRegistrant;
+		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		4A867696B5B9D1ED8B47E1F4C95B8134 /* Pods-TestCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C0924C13D3FDA5998FCF502E3B45B5 /* Pods-TestCocoa-dummy.m */; };
-		7776612F04B4FBB5AC166F6B652A0B96 /* Pods-TestCocoa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F56F6BE095EEE2CAE1489101AA3907A0 /* Pods-TestCocoa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		930525A248C9BF0CFB04763BF9252C9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1C3FB59FBDE110D9CC2D4660EEDC42DA /* Pods-TestCocoa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F56F6BE095EEE2CAE1489101AA3907A0 /* Pods-TestCocoa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB68F90F5EB6B18614BC21AF700FB4C6 /* Pods-TestCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C0924C13D3FDA5998FCF502E3B45B5 /* Pods-TestCocoa-dummy.m */; };
+		E9526B9E207B5281C8640BE726E1E91D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		39D20AD86C312E94246AAAA48B20AC18 /* PBXContainerItemProxy */ = {
+		2170A7D1CCC055839142908728003F58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83DAA8F43D74F8D51203DE23C7C3A3F5;
+			remoteInfo = FlutterPluginRegistrant;
+		};
+		6344C4AD64AC27CC88CB53F44CC3262E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 370FE6B7BD2AAF5FF298EAF84D61B7C4;
 			remoteInfo = KontaktSDK;
 		};
-		E0CC5FDC903BA275F1E704EC2A4CD794 /* PBXContainerItemProxy */ = {
+		8DBA6B38AFF0B3847F744622B64984C9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -54,32 +71,36 @@
 
 /* Begin PBXFileReference section */
 		05FC3EB9BCD41F4E0AFA5A6810CEBDF7 /* Pods-TestCocoa */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestCocoa"; path = Pods_TestCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A03C2B7AD6BAA45785226F038CED292 /* KontaktSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KontaktSDK.release.xcconfig; sourceTree = "<group>"; };
+		07E964DF3E3FF1C822C32546A8450B1D /* Flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.debug.xcconfig; sourceTree = "<group>"; };
 		19B35912DE93247309DF30467E2AB4BC /* Pods-TestCocoa-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestCocoa-Info.plist"; sourceTree = "<group>"; };
+		2A1EFFC8D0663CB7CCC57E382140D645 /* FlutterPluginRegistrant-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FlutterPluginRegistrant-xcframeworks.sh"; sourceTree = "<group>"; };
+		3043DA86295214D8E3C52E1AA1E9B7B0 /* FlutterPluginRegistrant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlutterPluginRegistrant.release.xcconfig; sourceTree = "<group>"; };
 		37C0924C13D3FDA5998FCF502E3B45B5 /* Pods-TestCocoa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestCocoa-dummy.m"; sourceTree = "<group>"; };
+		42CA951467614E05BC980495F914BA5C /* KontaktSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = KontaktSDK.xcframework; path = Cocoapods/KontaktSDK/iOS/KontaktSDK.xcframework; sourceTree = "<group>"; };
+		4DA304041157613D35E1DE1C99F4F0E0 /* KontaktSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "KontaktSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		50952F7342E796AE13608AC437A11C02 /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
+		5A3C3543F6EC10274020D91DE2AC3207 /* FlutterPluginRegistrant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlutterPluginRegistrant.debug.xcconfig; sourceTree = "<group>"; };
 		602CF2F318640DE7B9798BAC274CDC25 /* Pods-TestCocoa-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestCocoa-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6E05C963AA604678BDE72D8AED458F05 /* Flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.debug.xcconfig; sourceTree = "<group>"; };
+		68A8111BD1B4467FB719B8AA85AC8D91 /* Flutter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = Flutter.xcframework; sourceTree = "<group>"; };
+		6D0FFD5AB9B97880BAD9389A25CF2D4D /* KontaktSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KontaktSDK.release.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8FB3E3FE4368EC24D18D85D76951905C /* KontaktSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "KontaktSDK-xcframeworks.sh"; sourceTree = "<group>"; };
-		91E044EFEE8B5B01481165A93AEA003B /* Flutter-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Flutter-xcframeworks.sh"; sourceTree = "<group>"; };
-		956E99446997C92649D86BF83BB90354 /* Flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.release.xcconfig; sourceTree = "<group>"; };
+		795A618636C3127210AEF73544DF73F5 /* Flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1DD0BE0DF85623E7C4BA4D1479E817D /* Pods-TestCocoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestCocoa.release.xcconfig"; sourceTree = "<group>"; };
-		A759167C8DBA65A5D31701E6F785F2B3 /* KontaktSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KontaktSDK.debug.xcconfig; sourceTree = "<group>"; };
-		BCB28D94889A0C34C98EFD87EFA24A77 /* Flutter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = Flutter.xcframework; sourceTree = "<group>"; };
+		A4F62194BFC9B6E2A38C01012D9C0386 /* KontaktSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KontaktSDK.debug.xcconfig; sourceTree = "<group>"; };
 		C8326CE96D32207A18919099D3748B15 /* Pods-TestCocoa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestCocoa.modulemap"; sourceTree = "<group>"; };
 		DA3BFCE0EE1BCACC53FC68929E7CB109 /* Pods-TestCocoa-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestCocoa-acknowledgements.plist"; sourceTree = "<group>"; };
 		EE51EE46573687A8B9B317A87F4AF4C0 /* Pods-TestCocoa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestCocoa.debug.xcconfig"; sourceTree = "<group>"; };
-		EF31AE8C71708B5511AC0ACEA87F385C /* KontaktSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = KontaktSDK.xcframework; path = Cocoapods/KontaktSDK/iOS/KontaktSDK.xcframework; sourceTree = "<group>"; };
 		F56F6BE095EEE2CAE1489101AA3907A0 /* Pods-TestCocoa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestCocoa-umbrella.h"; sourceTree = "<group>"; };
+		FD94E38BB210C438CB13D0F52511798C /* Flutter-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Flutter-xcframeworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		774F533C43C56E6817D2F136EE3DC083 /* Frameworks */ = {
+		E27854F011C914663921FF1638A1AEE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				930525A248C9BF0CFB04763BF9252C9D /* Foundation.framework in Frameworks */,
+				E9526B9E207B5281C8640BE726E1E91D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,23 +115,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		158E6B4F1EC6E2D3B07DBAB5A4DC6A34 /* Support Files */ = {
+		17CE9E599B5A1A0AAF386B4A4195758F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				91E044EFEE8B5B01481165A93AEA003B /* Flutter-xcframeworks.sh */,
-				6E05C963AA604678BDE72D8AED458F05 /* Flutter.debug.xcconfig */,
-				956E99446997C92649D86BF83BB90354 /* Flutter.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Flutter";
-			sourceTree = "<group>";
-		};
-		2BE74CB9AB45655C539108F001A0E73A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EF31AE8C71708B5511AC0ACEA87F385C /* KontaktSDK.xcframework */,
+				42CA951467614E05BC980495F914BA5C /* KontaktSDK.xcframework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45FBB05D7950ABEA88D94C20AF9608DA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DA304041157613D35E1DE1C99F4F0E0 /* KontaktSDK-xcframeworks.sh */,
+				A4F62194BFC9B6E2A38C01012D9C0386 /* KontaktSDK.debug.xcconfig */,
+				6D0FFD5AB9B97880BAD9389A25CF2D4D /* KontaktSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KontaktSDK";
 			sourceTree = "<group>";
 		};
 		4AED55E6845A6FBE7A2556F3CA9933AA /* Targets Support Files */ = {
@@ -121,30 +142,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		50C575D81A91AE5253DD7C964E35D78B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD94E38BB210C438CB13D0F52511798C /* Flutter-xcframeworks.sh */,
+				07E964DF3E3FF1C822C32546A8450B1D /* Flutter.debug.xcconfig */,
+				795A618636C3127210AEF73544DF73F5 /* Flutter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Flutter";
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		7019C188F20BA17C540E31DB519B4F5A /* KontaktSDK */ = {
-			isa = PBXGroup;
-			children = (
-				2BE74CB9AB45655C539108F001A0E73A /* Frameworks */,
-				D9D2FD7F7FA27C56D584F4E065C95171 /* Support Files */,
-			);
-			name = KontaktSDK;
-			path = KontaktSDK;
-			sourceTree = "<group>";
-		};
-		7C79ACFE3B11FAB89BDAC0FFE4387A6B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BCB28D94889A0C34C98EFD87EFA24A77 /* Flutter.xcframework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		84D10EDC2FD37DD722BE7A6E98EF6469 /* Pods-TestCocoa */ = {
@@ -163,12 +177,49 @@
 			path = "Target Support Files/Pods-TestCocoa";
 			sourceTree = "<group>";
 		};
+		90566CB477FD4E25F80621DC2CE9CB2B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A1EFFC8D0663CB7CCC57E382140D645 /* FlutterPluginRegistrant-xcframeworks.sh */,
+				5A3C3543F6EC10274020D91DE2AC3207 /* FlutterPluginRegistrant.debug.xcconfig */,
+				3043DA86295214D8E3C52E1AA1E9B7B0 /* FlutterPluginRegistrant.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FlutterPluginRegistrant";
+			sourceTree = "<group>";
+		};
+		941F83FC3BE2FCE90361B475B0A2D7BF /* FlutterPluginRegistrant */ = {
+			isa = PBXGroup;
+			children = (
+				C1D8B56C57AB68E767EB50174A808596 /* Frameworks */,
+				90566CB477FD4E25F80621DC2CE9CB2B /* Support Files */,
+			);
+			name = FlutterPluginRegistrant;
+			path = FlutterPluginRegistrant;
+			sourceTree = "<group>";
+		};
+		A8C0E2363F764ABD6E5964AF659892AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68A8111BD1B4467FB719B8AA85AC8D91 /* Flutter.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1D8B56C57AB68E767EB50174A808596 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50952F7342E796AE13608AC437A11C02 /* FlutterPluginRegistrant.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				E1772A36FDE004443F637DF7128E823C /* Pods */,
+				D67D2FCFA9ADB2CEE699154A5FF75826 /* Pods */,
 				09BB7214FEE7C79C8B194B37B9D02843 /* Products */,
 				4AED55E6845A6FBE7A2556F3CA9933AA /* Targets Support Files */,
 			);
@@ -182,31 +233,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D9D2FD7F7FA27C56D584F4E065C95171 /* Support Files */ = {
+		D67D2FCFA9ADB2CEE699154A5FF75826 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8FB3E3FE4368EC24D18D85D76951905C /* KontaktSDK-xcframeworks.sh */,
-				A759167C8DBA65A5D31701E6F785F2B3 /* KontaktSDK.debug.xcconfig */,
-				0A03C2B7AD6BAA45785226F038CED292 /* KontaktSDK.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/KontaktSDK";
-			sourceTree = "<group>";
-		};
-		E1772A36FDE004443F637DF7128E823C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E5116817AE3FFB82A6AB7ED0DBC378EB /* Flutter */,
-				7019C188F20BA17C540E31DB519B4F5A /* KontaktSDK */,
+				EC384C82B639C0835C8BD81076EB2135 /* Flutter */,
+				941F83FC3BE2FCE90361B475B0A2D7BF /* FlutterPluginRegistrant */,
+				E33FD57CE10CDC2A1C35386DA97ECF6D /* KontaktSDK */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		E5116817AE3FFB82A6AB7ED0DBC378EB /* Flutter */ = {
+		E33FD57CE10CDC2A1C35386DA97ECF6D /* KontaktSDK */ = {
 			isa = PBXGroup;
 			children = (
-				7C79ACFE3B11FAB89BDAC0FFE4387A6B /* Frameworks */,
-				158E6B4F1EC6E2D3B07DBAB5A4DC6A34 /* Support Files */,
+				17CE9E599B5A1A0AAF386B4A4195758F /* Frameworks */,
+				45FBB05D7950ABEA88D94C20AF9608DA /* Support Files */,
+			);
+			name = KontaktSDK;
+			path = KontaktSDK;
+			sourceTree = "<group>";
+		};
+		EC384C82B639C0835C8BD81076EB2135 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				A8C0E2363F764ABD6E5964AF659892AC /* Frameworks */,
+				50C575D81A91AE5253DD7C964E35D78B /* Support Files */,
 			);
 			name = Flutter;
 			path = Flutter;
@@ -215,11 +266,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		FAB845690D5AE5F1A4926E3324A22FFB /* Headers */ = {
+		3B63FF2ABBFF0D871CA02FC647EC3FE0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7776612F04B4FBB5AC166F6B652A0B96 /* Pods-TestCocoa-umbrella.h in Headers */,
+				1C3FB59FBDE110D9CC2D4660EEDC42DA /* Pods-TestCocoa-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,18 +279,19 @@
 /* Begin PBXNativeTarget section */
 		C615FE9979733CBA9E77AFCAC7F8B310 /* Pods-TestCocoa */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54446399CB5CCE796AE7671EC8F53C88 /* Build configuration list for PBXNativeTarget "Pods-TestCocoa" */;
+			buildConfigurationList = BAB430B349F223B5B430C540450022AF /* Build configuration list for PBXNativeTarget "Pods-TestCocoa" */;
 			buildPhases = (
-				FAB845690D5AE5F1A4926E3324A22FFB /* Headers */,
-				D8A3C068A1B1A3A4DBBD1E7F1B149373 /* Sources */,
-				774F533C43C56E6817D2F136EE3DC083 /* Frameworks */,
-				BD34068F7D9D71FF1047313B2B27F63E /* Resources */,
+				3B63FF2ABBFF0D871CA02FC647EC3FE0 /* Headers */,
+				DB86E8E37820DF5BFF3C9B8413D42ECD /* Sources */,
+				E27854F011C914663921FF1638A1AEE8 /* Frameworks */,
+				BAA032C1FAE5CE1C0D1B0673DBA32E82 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5304ED8CD441427848AC394262504D6E /* PBXTargetDependency */,
-				C457CF57835D7C5D2CA1D8DAC4E6CF36 /* PBXTargetDependency */,
+				1777ABD14225AC056F5CE9D3567A09D7 /* PBXTargetDependency */,
+				6EB09CE4C4B7971BA1708B75A890D462 /* PBXTargetDependency */,
+				B217777A92B4DAABADF92410F7EEAA11 /* PBXTargetDependency */,
 			);
 			name = "Pods-TestCocoa";
 			productName = Pods_TestCocoa;
@@ -269,6 +321,7 @@
 			projectRoot = "";
 			targets = (
 				1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */,
+				83DAA8F43D74F8D51203DE23C7C3A3F5 /* FlutterPluginRegistrant */,
 				370FE6B7BD2AAF5FF298EAF84D61B7C4 /* KontaktSDK */,
 				C615FE9979733CBA9E77AFCAC7F8B310 /* Pods-TestCocoa */,
 			);
@@ -276,7 +329,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BD34068F7D9D71FF1047313B2B27F63E /* Resources */ = {
+		BAA032C1FAE5CE1C0D1B0673DBA32E82 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -320,31 +373,54 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/KontaktSDK/KontaktSDK-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F1A083A60B5C1D69AC44493CC093A0DB /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D8A3C068A1B1A3A4DBBD1E7F1B149373 /* Sources */ = {
+		DB86E8E37820DF5BFF3C9B8413D42ECD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A867696B5B9D1ED8B47E1F4C95B8134 /* Pods-TestCocoa-dummy.m in Sources */,
+				DB68F90F5EB6B18614BC21AF700FB4C6 /* Pods-TestCocoa-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5304ED8CD441427848AC394262504D6E /* PBXTargetDependency */ = {
+		1777ABD14225AC056F5CE9D3567A09D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Flutter;
 			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
-			targetProxy = E0CC5FDC903BA275F1E704EC2A4CD794 /* PBXContainerItemProxy */;
+			targetProxy = 8DBA6B38AFF0B3847F744622B64984C9 /* PBXContainerItemProxy */;
 		};
-		C457CF57835D7C5D2CA1D8DAC4E6CF36 /* PBXTargetDependency */ = {
+		6EB09CE4C4B7971BA1708B75A890D462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlutterPluginRegistrant;
+			target = 83DAA8F43D74F8D51203DE23C7C3A3F5 /* FlutterPluginRegistrant */;
+			targetProxy = 2170A7D1CCC055839142908728003F58 /* PBXContainerItemProxy */;
+		};
+		B217777A92B4DAABADF92410F7EEAA11 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KontaktSDK;
 			target = 370FE6B7BD2AAF5FF298EAF84D61B7C4 /* KontaktSDK */;
-			targetProxy = 39D20AD86C312E94246AAAA48B20AC18 /* PBXContainerItemProxy */;
+			targetProxy = 6344C4AD64AC27CC88CB53F44CC3262E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -417,7 +493,7 @@
 		};
 		152B2F51FE92F0DBD0A9ECD2440DD230 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A03C2B7AD6BAA45785226F038CED292 /* KontaktSDK.release.xcconfig */;
+			baseConfigurationReference = 6D0FFD5AB9B97880BAD9389A25CF2D4D /* KontaktSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -434,7 +510,7 @@
 		};
 		1A7317B5454F861BCA85B5462562709C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 956E99446997C92649D86BF83BB90354 /* Flutter.release.xcconfig */;
+			baseConfigurationReference = 795A618636C3127210AEF73544DF73F5 /* Flutter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,6 +524,22 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		246162C3E72F66D8F30C94F7EBACF7F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A3C3543F6EC10274020D91DE2AC3207 /* FlutterPluginRegistrant.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		2DE0D8898245310716431F92FA4989FF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -511,7 +603,7 @@
 			};
 			name = Release;
 		};
-		30D43C6AB2C4FA84E84AE85DA04FCBC9 /* Release */ = {
+		43BB74E13A5A3802DF9C8EEA61AF2219 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A1DD0BE0DF85623E7C4BA4D1479E817D /* Pods-TestCocoa.release.xcconfig */;
 			buildSettings = {
@@ -549,7 +641,56 @@
 			};
 			name = Release;
 		};
-		ABE0512A6EB62782168CF847095E7672 /* Debug */ = {
+		E4095697FCAC14896F891B9CAC99DE4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3043DA86295214D8E3C52E1AA1E9B7B0 /* FlutterPluginRegistrant.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9338D744C7D11F74C4144C389A99D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4F62194BFC9B6E2A38C01012D9C0386 /* KontaktSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9A8F90AC4F820E13D090CCDBD703E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E964DF3E3FF1C822C32546A8450B1D /* Flutter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F66754435F7B423CC1618A39043A2C88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EE51EE46573687A8B9B317A87F4AF4C0 /* Pods-TestCocoa.debug.xcconfig */;
 			buildSettings = {
@@ -586,38 +727,6 @@
 			};
 			name = Debug;
 		};
-		E9338D744C7D11F74C4144C389A99D70 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A759167C8DBA65A5D31701E6F785F2B3 /* KontaktSDK.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E9A8F90AC4F820E13D090CCDBD703E6B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E05C963AA604678BDE72D8AED458F05 /* Flutter.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -626,15 +735,6 @@
 			buildConfigurations = (
 				09909ECBA13E8F70A928465E7F7A9A92 /* Debug */,
 				2DE0D8898245310716431F92FA4989FF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		54446399CB5CCE796AE7671EC8F53C88 /* Build configuration list for PBXNativeTarget "Pods-TestCocoa" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ABE0512A6EB62782168CF847095E7672 /* Debug */,
-				30D43C6AB2C4FA84E84AE85DA04FCBC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -648,11 +748,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		BAB430B349F223B5B430C540450022AF /* Build configuration list for PBXNativeTarget "Pods-TestCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66754435F7B423CC1618A39043A2C88 /* Debug */,
+				43BB74E13A5A3802DF9C8EEA61AF2219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CD6C068D8EF60DBFD69910D728B67D83 /* Build configuration list for PBXAggregateTarget "KontaktSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9338D744C7D11F74C4144C389A99D70 /* Debug */,
 				152B2F51FE92F0DBD0A9ECD2440DD230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBA99E5839836EE22D9A5CF15F13ED35 /* Build configuration list for PBXAggregateTarget "FlutterPluginRegistrant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246162C3E72F66D8F30C94F7EBACF7F3 /* Debug */,
+				E4095697FCAC14896F891B9CAC99DE4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

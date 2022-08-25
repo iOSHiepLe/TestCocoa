@@ -38,7 +38,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 LICENSE
   }
   s.author                = { 'Flutter Dev Team' => 'flutter-dev@googlegroups.com' }
-  s.source                = { :http => 'file:/Users/lemh/Documents/workspace/RnD/TestCocoa/FlutterPluginRegistrant.xcframework' }
+  s.source                = { :http => 'file:/Users/lemh/Documents/workspace/RnD/TestCocoa/FlutterPluginRegistrant.xcframework.zip', :type => 'zip' }
   s.documentation_url     = 'https://flutter.dev/docs'
   s.platform              = :ios, '9.0'
   s.vendored_frameworks   = 'FlutterPluginRegistrant.xcframework'

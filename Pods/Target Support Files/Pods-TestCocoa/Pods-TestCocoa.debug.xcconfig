@@ -1,8 +1,8 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Flutter" "${PODS_ROOT}/KontaktSDK/Cocoapods/KontaktSDK/iOS" "${PODS_XCFRAMEWORKS_BUILD_DIR}/Flutter" "${PODS_XCFRAMEWORKS_BUILD_DIR}/KontaktSDK"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Flutter" "${PODS_ROOT}/FlutterPluginRegistrant" "${PODS_ROOT}/KontaktSDK/Cocoapods/KontaktSDK/iOS" "${PODS_XCFRAMEWORKS_BUILD_DIR}/Flutter" "${PODS_XCFRAMEWORKS_BUILD_DIR}/FlutterPluginRegistrant" "${PODS_XCFRAMEWORKS_BUILD_DIR}/KontaktSDK"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks' '@executable_path/../../Frameworks'
-OTHER_LDFLAGS = $(inherited) -framework "CoreBluetooth" -framework "CoreLocation" -framework "Flutter" -framework "Foundation" -framework "KontaktSDK" -framework "MobileCoreServices" -framework "SystemConfiguration" -framework "UIKit"
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "CoreBluetooth" -framework "CoreLocation" -framework "Flutter" -framework "FlutterPluginRegistrant" -framework "Foundation" -framework "KontaktSDK" -framework "MobileCoreServices" -framework "SystemConfiguration" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
