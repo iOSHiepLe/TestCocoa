@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		3857D3A728B4C8C600E91BDC /* Tixngo in Resources */ = {isa = PBXBuildFile; fileRef = 3857D3A528B4C8C600E91BDC /* Tixngo */; };
 		3857D3F228B4D69C00E91BDC /* Flutter in Resources */ = {isa = PBXBuildFile; fileRef = 3857D3F128B4D69C00E91BDC /* Flutter */; };
-		3857D40C28B7113400E91BDC /* app_settings.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3857D40B28B7113400E91BDC /* app_settings.xcframework */; };
-		3857D40D28B7113400E91BDC /* app_settings.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3857D40B28B7113400E91BDC /* app_settings.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3898F3A028B4677500DFDD23 /* TestCocoa.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3898F39F28B4677500DFDD23 /* TestCocoa.docc */; };
 		3898F3A628B4677600DFDD23 /* TestCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F39B28B4677500DFDD23 /* TestCocoa.framework */; };
 		3898F3AB28B4677600DFDD23 /* TestCocoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3898F3AA28B4677600DFDD23 /* TestCocoaTests.swift */; };
@@ -28,26 +26,11 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		3857D40E28B7113400E91BDC /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				3857D40D28B7113400E91BDC /* app_settings.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		07252AD84BD7EFD1F5A8EB70 /* Pods-TestCocoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCocoa.release.xcconfig"; path = "Target Support Files/Pods-TestCocoa/Pods-TestCocoa.release.xcconfig"; sourceTree = "<group>"; };
 		123B47C0E2C923EC6CEB8901 /* Pods-TestCocoa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCocoa.debug.xcconfig"; path = "Target Support Files/Pods-TestCocoa/Pods-TestCocoa.debug.xcconfig"; sourceTree = "<group>"; };
 		3857D3A528B4C8C600E91BDC /* Tixngo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tixngo; sourceTree = "<group>"; };
 		3857D3F128B4D69C00E91BDC /* Flutter */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Flutter; sourceTree = "<group>"; };
-		3857D40B28B7113400E91BDC /* app_settings.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = app_settings.xcframework; path = TestCocoa/Flutter/Debug/app_settings.xcframework; sourceTree = "<group>"; };
 		3898F39B28B4677500DFDD23 /* TestCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3898F39E28B4677500DFDD23 /* TestCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCocoa.h; sourceTree = "<group>"; };
 		3898F39F28B4677500DFDD23 /* TestCocoa.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TestCocoa.docc; sourceTree = "<group>"; };
@@ -61,7 +44,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3857D40C28B7113400E91BDC /* app_settings.xcframework in Frameworks */,
 				D2803140F7C957237EA88000 /* Pods_TestCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,7 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				D6AABF53869C1F9EFA229213 /* Pods_TestCocoa.framework */,
-				3857D40B28B7113400E91BDC /* app_settings.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -157,7 +138,6 @@
 				3898F39728B4677500DFDD23 /* Sources */,
 				3898F39828B4677500DFDD23 /* Frameworks */,
 				3898F39928B4677500DFDD23 /* Resources */,
-				3857D40E28B7113400E91BDC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
